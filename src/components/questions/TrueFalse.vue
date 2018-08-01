@@ -6,23 +6,16 @@
       <input type="radio" :value="true" v-model="selectedChoice" :disabled="correct" /> True<br />
       <input type="radio" :value="false" v-model="selectedChoice" :disabled="correct" /> False
     </div>
-    <div v-if="answered" class="question__text">
-      <div v-if="correct" class="correct">
-        {{question.response}}<br />
-        Correct!
-      </div>
-      <div v-else class="incorrect">
-        Inccorect: {{question.response}}
-      </div>
-    </div>
     <div v-if="!correct">
       <answer-button :submit="isCorrect" />
     </div>
+    <response :answered="answered" :correct="correct" :question="question" />
   </div>
 </template>
 <script>
 import AnswerButton from '../buttons/AnswerButton.vue'
 import store from '../../store'
+import response from 'Response.vue'
 
 export default {
   props: {
@@ -30,7 +23,8 @@ export default {
     correctAnswer: Function
   },
   components: {
-    'answer-button': AnswerButton
+    'answer-button': AnswerButton,
+    response
   },
   data: function() {
     return {

@@ -15,14 +15,7 @@
     <div v-if="!correct">
       <answer-button :submit="isCorrect" />
     </div>
-    <div v-if="answered" class="question__text">
-      <div v-if="correct" class="correct">
-        Correct! <span v-html="question.response" />
-      </div>
-      <div v-else class="incorrect">
-        Incorrect: <span v-html="question.response" />
-      </div>
-    </div>
+    <response :answered="answered" :correct="correct" :question="question" />
   </div>
 </template>
 
@@ -31,6 +24,7 @@
 import shuffle from '../../utils/shuffle'
 
 import AnswerButton from '../buttons/AnswerButton.vue'
+import response from 'Response.vue'
 import draggable from 'vuedraggable'
 
 import store from '../../store'
@@ -38,6 +32,7 @@ import store from '../../store'
 export default {
   components: {
     draggable,
+    response,
     'answer-button': AnswerButton
   },
   props: {
