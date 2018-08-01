@@ -365,5 +365,11 @@
       "timestamp": 1459361875337,
       "quizId": "q1"
     }
+  ],
+  "logins": [
+    {
+      "userId":"C8C2KemQjfN7ULZRVLhw8tTqg3b2",
+      "timestamp":1459361875337
+    }
   ]
 }

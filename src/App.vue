@@ -16,6 +16,8 @@ import Loader from './components/Loader.vue'
 import store from './store'
 import Quiz from './components/Quiz.vue'
 import Results from './components/Results.vue'
+import Login from './components/Login.vue'
+import Signup from './components/Signup.vue'
 
 import { mapActions, mapGetters } from 'vuex'
 
@@ -25,7 +27,9 @@ export default {
   components: {
     Loader,
     Quiz,
-    Results
+    Results,
+    Login,
+    Signup
   },
   computed: {
     ...mapGetters(['loaded', 'questions', 'percentage', 'isQuestionCorrect','isComplete'])

@@ -1,4 +1,4 @@
-# ltc-quizzes
+# Quizzer App
 
 ## Project setup
 ```
