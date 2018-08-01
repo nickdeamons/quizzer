@@ -1,0 +1,8 @@
+#app {
+  padding: 0 1.35em;
+  @include breakpoint($desktop) {
+    padding: 0;
+    max-width: 40em;
+    margin: 0px auto;
+  }
+}

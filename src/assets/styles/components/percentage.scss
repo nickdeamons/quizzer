@@ -1,0 +1,38 @@
+.percentage {
+  display: block;
+  overflow: hidden;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bc2525+0,e8a02e+30,f2de30+62,b3d673+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bc2525+0,e8a02e+30,f2de30+62,b3d673+100 */
+  background: #bc2525;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #bc2525 0%, #e8a02e 30%, #f2de30 62%, #b3d673 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #bc2525 0%, #e8a02e 30%, #f2de30 62%, #b3d673 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #bc2525 0%, #e8a02e 30%, #f2de30 62%, #b3d673 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc2525', endColorstr='#b3d673', GradientType=1);
+  /* IE6-9 */
+  /* IE6-9 */
+  position: relative;
+  margin-bottom: 2em;
+  font-size: .8rem;
+  &__value {
+    display: block;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    width: 0;
+    overflow: hidden;
+  }
+  &__mask{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    background-color: white;
+    width: 100%;
+    z-index: 0;
+  }
+}

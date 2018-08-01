@@ -1,0 +1,18 @@
+h1 {
+  font-size:2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $blue;
+  margin: 0;
+  border-bottom: 2px solid $blue;
+  @include breakpoint($tablet) {
+    text-align: center;
+    font-size: 2.5em;
+  }
+}
+
+h2 {
+  font-size: 1.75em;
+  // text-transform: uppercase;
+  margin: 0 0 1em;
+}

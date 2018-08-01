@@ -1,0 +1,24 @@
+
+  .fade-enter-active, .fade-leave-active {
+    
+    transition: transform 1s, opacity 0.75s;
+    /*position: absolute;*/
+  }
+  
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    overflow: hidden;
+    opacity: 0;
+    background: white;
+    position: absolute;
+  }
+  .fade-leave-to {
+    transform: translateY(-100%);
+    z-index: 0;
+  }
+  .fade-enter {
+    transform: translateY(100%);
+    z-index: 1;
+  }
+  .fade-enter-to {
+    transform: translateY(0)
+  }

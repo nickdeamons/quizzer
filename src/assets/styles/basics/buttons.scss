@@ -1,0 +1,44 @@
+button, .button {
+  line-height: 1.5em;
+  font-size: .8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #222;
+  color: white;
+  min-width: 8.5rem;
+  line-height: 1.5rem;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  padding: .25em 0.5em;
+
+  &.answer {
+    // color: palegoldenrod;
+    display: block;
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 2em;
+    
+    background-color: rgba(rgb(60, 134, 73), 0.85);
+    margin-bottom: 1em;
+  }
+
+  &.prev {
+    background-color: rgba(#222, 0.55);
+  }
+
+  &.next {
+    background-color: $blue;
+  }
+
+  &[disabled] {
+    opacity: 0.25;
+  }
+}
+
+.buttons {
+  margin: 1em 0 0;
+  display: flex;
+  // justify-content: space-between;
+  justify-content: center;
+}

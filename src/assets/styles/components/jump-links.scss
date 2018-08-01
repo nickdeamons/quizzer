@@ -1,0 +1,61 @@
+.jump-links {
+  margin-top: 2em;
+  > span {
+    display: inline-block;
+    padding: 0 5px;
+  }
+  a,
+  span.router-link-inactive {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: $blue;
+  }
+  a.router-link-active {
+    font-weight: bold;
+    color: $blue;
+  }
+  span.router-link-inactive {
+    &.correct {
+      color: rgba(#222, 0.33);
+      position: relative;
+      .icon {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        &:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          top: 0px;
+          width: 100%;
+          text-align: center;
+          z-index: 2;
+          color: $dark-green;
+          opacity: 1;
+          font-size: 16px;
+        }
+      }
+    }
+
+    &.incorrect {
+      position: relative;
+      color: rgba(#222, 0.33);
+      &:before {
+        content: 'X';
+        position: absolute;
+        top: 0;
+        left: 0;
+        top: -1px;
+        width: 100%;
+        text-align: center;
+        z-index: 2;
+        color: $dark-red;
+        opacity: 1;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}

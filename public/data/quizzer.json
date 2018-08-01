@@ -1,0 +1,369 @@
+{
+  "quizzes": [
+    {
+      "id": "q1",
+      "title": "LTC 5",
+      "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "q1": [
+        {
+          "type": "fillIn",
+          "body": "Since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that men are without excuse.",
+          "dictionary": ["Romans 1:19-20", "Rom 1:19-20"],
+          "response": "Romans 1:19-20"
+        },
+        {
+          "type": "fillIn",
+          "body": "John 13:17",
+          "dictionary": ["Now that you know these things, you will be blessed if you do them."],
+          "response": "Now that you know these things, you will be blessed if you do them."
+        },
+        {
+          "type": "multi",
+          "body": "Select the verse best describing <i>apologetics</i>",
+          "options": [{
+              "text": "1 Pet 1:15",
+              "correct": false
+            },
+            {
+              "text": "1 Pet 3:15",
+              "correct": true
+            }
+          ],
+          "response": "1 Pet 3:15"
+        },
+        {
+          "type": "sort",
+          "body": "Match the verses to their content.",
+          "options": [{
+              "text": "Romans 12:15"
+            },
+            {
+              "text": "Romans 15:14"
+            },
+            {
+              "text": "Romans 12:2"
+            }
+          ],
+          "matches": [{
+              "text": "Rejoice with those who rejoice, and weep with those who weep."
+            },
+            {
+              "text": "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."
+            },
+            {
+              "text": "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what the will of God is, that which is good and acceptable and perfect."
+            }
+          ],
+          "response": "Romans 12:15, Romans 15:14, Romans 12:2"
+        },
+        {
+          "type": "fillIn",
+          "body": "Hebrews 11:3",
+          "dictionary": ["By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible."],
+          "response": "By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible."
+        },
+        {
+          "type": "fillIn",
+          "body": "2 Cor 5:11a",
+          "dictionary": ["Since, then, we know what it is to fear the Lord, we try to persuade men."],
+          "response": "Since, then, we know what it is to fear the Lord, we try to persuade men."
+        },
+        {
+          "type": "multi",
+          "body": "It was Paul’s custom to go the Synagogue, reason from the Scriptures, and persuade men that Christ had to suffer and rise on the third day.",
+          "options": [{
+              "text": "Acts 17:2-4",
+              "correct": true
+            },
+            {
+              "text": "Acts 17:12-14",
+              "correct": false
+            },
+            {
+              "text": "Acts 16:5-9",
+              "correct": false
+            }
+          ],
+          "response": "Acts 17:2-4"
+        },
+        {
+          "type": "multi",
+          "body": "Paul speaks in Athens at the Areopagus. This is an example of a contextualized apologetics approach.",
+          "options": [{
+              "text": "Acts 17:2-4",
+              "correct": false
+            },
+            {
+              "text": "Acts 17:22-31",
+              "correct": true
+            },
+            {
+              "text": "Acts 16:5-9",
+              "correct": false
+            }
+          ],
+          "response": "Acts 17:22-31"
+        },
+        {
+          "type": "fillIn",
+          "body": "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ.",
+          "dictionary":[
+            "2 Cor 10:5", "2Cor10:5, 2 Corinthians 10:5"
+          ],
+          "response": "2 Cor 10:5"
+        },
+        {
+          "type": "multi",
+          "body": "Paul gives an example of evidential apologetics by arguing that Jesus’ literal bodily resurrection was witnessed by many.",
+          "options":[
+            {
+              "text":"1 Cor 15:1-7",
+              "correct": true
+            },
+            {
+              "text":"2 Cor 10:5",
+              "correct": false
+            },
+            {
+              "text":"Romans 15:14",
+              "correct": false
+            }
+          ],
+          "response": "1 Cor 15:1-7"
+        },
+        {
+          "type": "fillIn",
+          "body": "This verse teaches that God will lead willing people.",
+          "dictionary": ["Ps 32:8-9"],
+          "response": "Ps 32:8-9"
+        },
+        {
+          "type": "fillIn",
+          "body": "Paul appeals to spiritual expediency",
+          "dictionary": ["1 Cor 16", "1 Corinthians 16"],
+          "response": "1 Cor 16"
+        },
+        {
+          "type":"fillIn",
+          "body":"Speak words that edify&hellip; Be kind to one another, tender-hearted",
+          "dictionary":["Eph 4:29,32", "Ephesians 4:29,32"],
+          "response":"Eph 4:29, 32"
+        },
+        {
+          "type":"fillIn",
+          "body": "<strong>Jeremiah 17:9</strong>",
+          "dictionary":["The heart is deceitful above all things and beyond cure. Who can understand it?"],
+          "response": "The heart is deceitful above all things and beyond cure. Who can understand it?"
+        },
+        {
+          "type":"multi",
+          "body":"The rapid appearance around 530 million years ago of most phyla on earth during a very short period of 5-10 million years.",
+          "options":[
+            {
+              "text": "Cambrian Explosion",
+              "correct": true
+            },
+            {
+              "text": "Mature Creationism",
+              "correct": false
+            },
+            {
+              "text": "Theistic Evolution",
+              "correct": false
+            },
+            {
+              "text": "Progressive Creationism",
+              "correct": false
+            }
+          ],
+          "response": "Cambrian Explosion"
+        },
+        {
+          "type":"multi",
+          "body":"This view holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them.",
+          "options":[
+            {
+              "text": "Cambrian Explosion",
+              "correct": false
+            },
+            {
+              "text": "Mature Creationism",
+              "correct": false
+            },
+            {
+              "text": "Inorganic Evolution/Abiogenesis",
+              "correct": false
+            },
+            {
+              "text": "Progressive Creationism",
+              "correct": true
+            }
+          ],
+          "response": "Progressive Creationism"
+        },
+        {
+          "type":"multi",
+          "body":"A theory that the entire world was created in six days just as it is today, less than ten thousand years ago.",
+          "options":[
+            {
+              "text": "Inorganic Evolution/Abiogenesis",
+              "correct": false
+            },
+            {
+              "text": "Mature Creationism",
+              "correct": true
+            },
+            {
+              "text": "Theistic Evolution",
+              "correct": false
+            },
+            {
+              "text": "Progressive Creationism",
+              "correct": false
+            }
+          ],
+          "response": "Mature Creationism"
+        },
+        {
+          "type": "fillIn",
+          "body": "This form of spirituality is a loosely based movement that includes numerous groups, churches, and philosophies that share common foundational beliefs. It can be traced back to several unconventional religious ideologies including Theosophy (a pantheistic form of ancient Gnosticism) as well as the teaching of Phineas P. Quimby, a psychic healer who greatly influenced a number of mind-science cults (including Christian Science).",
+          "dictionary": ["New Age"],
+          "response": "New Age"
+        },
+        {
+          "type":"fillIn",
+          "body":"Romans 15:14",
+          "dictionary":["I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."],
+          "response":"I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."
+        },
+        {
+          "type":"fillIn",
+          "body":"Colossians 3:16",
+          "dictionary": [
+            "Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God."
+          ],
+          "response":"Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God."
+        },
+        {
+          "type":"fillIn",
+          "body":"Mark 10:45",
+          "dictionary":[
+            "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."
+          ],
+          "response": "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."
+        },
+        {
+          "type":"multi",
+          "body":"Loving God and loving one another are the most important commandments",
+          "options":[
+            {
+              "text": "Matthew 22:37-40",
+              "correct": true
+            },
+            {
+              "text": "Mark 10:45",
+              "correct": false
+            },
+            {
+              "text": "Matthew 5:46",
+              "correct": false
+            }
+          ],
+          "response": "Matthew 22:37-40"
+        },
+        {
+          "type":"fillIn",
+          "body":"John 15:13",
+          "dictionary":["Greater love has no one than this, that he lay down his life for his friends."],
+          "response":"Greater love has no one than this, that he lay down his life for his friends."
+        },
+        {
+          "type":"fillIn",
+          "body":"1 Corinthians 13:5",
+          "dictionary":["It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs."],
+          "response":"It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. "
+        },
+        {
+          "type":"fillIn",
+          "body":"Colossians 3:13",
+          "dictionary":["Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you."],
+          "response":"Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you."
+        },
+        {
+          "type":"multi",
+          "body":"Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
+          "options":[
+            {
+              "text": "Eph 4:32",
+              "correct": true
+            },
+            {
+              "text": "Colossians 3:13",
+              "correct": false
+            } 
+          ],
+          "response": "Eph 4:32"
+        },
+        {
+          "type":"fillIn",
+          "body":"Galatians 6:1",
+          "dictionary":["Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted."],
+          "response":"Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted."
+        },
+        {
+          "type":"fillIn",
+          "body":"____________________ stresses rational arguments for the existence of God and uses evidence to substantiate biblical claims and miracles. Arguments such as the cosmological, teleological, and ontological arguments are types of classical apologetics.",
+          "dictionary":[
+            "Classical Apologetics"
+          ],
+          "response": "Classical Apologetics"
+        },
+        {
+          "type":"fillIn",
+          "body":"______________________  refers to how much weight of proof a particular debater must bear. As Christian apologists, we argue that we have no more burden of proof than any other worldview.",
+          "dictionary":["Burden of Proof"],
+          "response":"Burden of Proof"
+        },
+        {
+          "type":"sort",
+          "body":"Drag the term to its definition.",
+          "options":[
+            {
+              "text":"Punctuated Equilibrium"
+            },
+            {
+              "text":"Inorganic Evolution/Abiogenesis"
+            },
+            {
+              "text":"Progressive Creationism"
+            }
+          ],
+          "matches":[
+            {
+              "text":"is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur."
+            },
+            {
+              "text":"Refers to the change from non-living chemical compounds to the first living organism."
+            },
+            {
+              "text":"Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them."
+            }
+          ],
+          "response": ""
+        }
+      ]
+    }
+  ],
+  "scores": [
+    {
+      "userId": "C8C2KemQjfN7ULZRVLhw8tTqg3b2",
+      "scored": 0,
+      "timestamp": 1459361875337,
+      "quizId": "q1"
+    }
+  ]
+}
