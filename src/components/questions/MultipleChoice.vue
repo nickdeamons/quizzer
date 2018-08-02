@@ -15,7 +15,7 @@
 </template>
 <script>
 import AnswerButton from '../buttons/AnswerButton.vue'
-import response from 'Response.vue'
+import response from './Response.vue'
 import shuffle from '../../utils/shuffle'
 import store from '../../store'
 

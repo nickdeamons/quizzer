@@ -81,19 +81,21 @@ export default {
   },
   watch: {
     currentQuestion: function(){
+      /*
       this.$router.push({
-        path: `/question/${this.currentQuestion + 1}`
-      })
+        path: `/quiz/question/${this.currentQuestion + 1}`
+      })*/
     }
   },
   mounted: function() {
     if(this.$route.params.id) {
       this.currentQuestion = parseInt(this.$route.params.id) - 1;
-    } else {
+    } 
+    /* else {
       this.$router.push({
-        path: `/question/${this.currentQuestion + 1}`
-      })
-    }
+        path: `/quiz/question/${this.currentQuestion + 1}`
+      }/
+    } */
   }
   
 };

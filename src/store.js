@@ -1,20 +1,8 @@
 import Vue from '../node_modules/vue';
 import Vuex from '../node_modules/vuex';
 // import shuffle from './utils/shuffle';
-import firebase from 'firebase'
-import quizModule from 'store/quiz'
-//
-const config = {
-  apiKey: "AIzaSyAguPCIxUUrToYksTf1dwy3IJ5_lu1Qvnw",
-  authDomain: "intense-heat-3679.firebaseapp.com",
-  databaseURL: "https://intense-heat-3679.firebaseio.com",
-  projectId: "intense-heat-3679",
-  storageBucket: "intense-heat-3679.appspot.com",
-  messagingSenderId: "266803128668"
-};
-
-firebase.initializeApp(config);
-
+import quiz from './store/quiz'
+import users from './store/users'
 
 const axios = require('axios');
 
@@ -52,13 +40,10 @@ export default new Vuex.Store({
   mutations,
   actions,
   modules: {
-    quiz: quizModule
+    quiz,
+    users
   },
   state: {
-    quiz: {},
-    questions: [],
-    loaded: false,
-    complete: false,
-    authenticated: false
+    loaded: false
   }
 })

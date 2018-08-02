@@ -24,7 +24,7 @@
 import shuffle from '../../utils/shuffle'
 
 import AnswerButton from '../buttons/AnswerButton.vue'
-import response from 'Response.vue'
+import response from './Response.vue'
 import draggable from 'vuedraggable'
 
 import store from '../../store'

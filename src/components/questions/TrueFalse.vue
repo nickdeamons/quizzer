@@ -15,7 +15,7 @@
 <script>
 import AnswerButton from '../buttons/AnswerButton.vue'
 import store from '../../store'
-import response from 'Response.vue'
+import response from './Response.vue'
 
 export default {
   props: {

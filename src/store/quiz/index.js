@@ -1,5 +1,5 @@
-import Vue from '../node_modules/vue';
-import shuffle from './utils/shuffle';
+import Vue from 'vue';
+import shuffle from '../../utils/shuffle';
 // const axios = require('axios');
 
 const getters = {
@@ -59,6 +59,13 @@ const mutations = {
         element.correct = true
       }
     });
+  },
+  RESET (state) {
+    state.quiz.questions.forEach((element) => {
+      element.correct = false
+      element.answered = false
+    })
+    state.complete = false
   }
 }
 
@@ -72,11 +79,17 @@ const actions = {
     commit
   }, questionId) {
     commit('CORRECT_ANSWER', questionId)
+  },
+  reset({
+    commit
+  }) {
+    commit('RESET')
   }
 }
 
 const state = {
-  quiz: {}
+  quiz: {},
+  complete: false
 }
 
 export default {
