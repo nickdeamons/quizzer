@@ -3,18 +3,23 @@
   > span {
     display: inline-block;
     padding: 0 5px;
+    position: relative;
+    font-size: 0.9em;
   }
   a,
-  span.router-link-inactive {
-    font-size: 0.8em;
+  a.inactive {
+    // font-size: 0.8em;
     text-decoration: none;
     color: $blue;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
   }
-  a.router-link-active {
+  a.active {
     font-weight: bold;
     color: $blue;
   }
-  span.router-link-inactive {
+  a {
     &.correct {
       color: rgba(#222, 0.33);
       position: relative;
@@ -39,23 +44,24 @@
       }
     }
 
-    &.incorrect {
-      position: relative;
-      color: rgba(#222, 0.33);
-      &:before {
-        content: 'X';
-        position: absolute;
-        top: 0;
-        left: 0;
-        top: -1px;
-        width: 100%;
-        text-align: center;
-        z-index: 2;
-        color: $dark-red;
-        opacity: 1;
-        font-size: 16px;
-        font-weight: bold;
-      }
+    
+  }
+  span.incorrect {
+    position: relative;
+    color: rgba(#222, 0.33);
+    &:before {
+      content: 'X';
+      position: absolute;
+      top: 0;
+      left: 0;
+      top: -1px;
+      width: 100%;
+      text-align: center;
+      z-index: 2;
+      color: $dark-red;
+      opacity: 1;
+      font-size: 16px;
+      font-weight: bold;
     }
   }
 }

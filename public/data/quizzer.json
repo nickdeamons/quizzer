@@ -3,6 +3,11 @@
     "id": "q1",
     "title": "LTC 5",
     "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
+  },
+  {
+    "id": "q0",
+    "title": "Dynamit Front End Quiz",
+    "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
   }],
   "quizQuestions": {
     "q0": [
@@ -11,6 +16,12 @@
         "body": "______ should be lower case and dash-delimited.",
         "dictionary": ["CSS Selectors"],
         "response": "The answer is CSS Selectors."
+      },
+      {
+        "type": "fillIn",
+        "body": "The array method ______, called by an empty array <code>[]</code> with an existing array as its only parameter, is a quick way to make a NEW INSTANCE of an array that its copy.",
+        "dictionary": ["concat"],
+        "response": "[].concat()"
       },
       {
         "type": "multi",
@@ -31,16 +42,46 @@
         "response": "<strong>Write JavaScript in modules</strong>."
       },
       {
+        "type": "multi",
+        "body": "In ES6, an arrow function _____________ and ____________",
+        "options": [
+          {
+            "text":"Does NOT have its own <code>this</code>",
+            "correct":true
+          },
+          {
+            "text":"May have a concise body instead of a block body",
+            "correct":true
+          },
+          {
+            "text":"is the same as <code>function</code>",
+            "correct":false
+          }
+        ]
+      },
+      {
         "type": "trueFalse",
         "body": "For accessibility, do not use <code>&lt;meta name='viewport' content='user-scalable=no' /&gt;</code>. Users must be able to zoom.",
         "answer": false,
         "response": "The answer is false."
       },
       {
+        "type": "trueFalse",
+        "body": "BEM stands for Block-Element-Modifier and is used as a baseline for markup and Javascript",
+        "answer": false,
+        "response": "The answer is true. BEM is a guideline for HTML markup and CSS"
+      },
+      {
         "type": "fillIn",
         "body": "_________ bundles and optimizes JavaScript into chunks.",
         "dictionary": ["Webpack"],
         "response": "The answer is <em>Webpack</em>"
+      },
+      {
+        "type": "trueFalse",
+        "body": "Arrow functions are supported in IE Edge and Safari 10",
+        "answer": false,
+        "response": "The answer is false. Arrow functions have support in Safari 11.1"
       },
       {
         "type": "multi",
@@ -59,6 +100,22 @@
           "correct": true
           }
         ]
+      },
+      {
+        "type":"sort",
+        "body":"Match these accessibility guidelines to their A-Level",
+        "options":[
+          ["Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.", "Level A"],
+          ["All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.", "Level AAA"],
+          ["If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.", "Level AA"],
+          ["If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.", "Level A"]
+        ]
+      },
+      {
+        "type": "fillIn",
+        "body": "A _________ allows team members to review your code before it is merged to a branch.",
+        "dictionary": ["Git pull request", "pull request"],
+        "response": "Git pull request/pull request."
       }
     ],
     "q1": [{
@@ -90,18 +147,17 @@
       {
         "type": "sort",
         "body": "Match the verses to their content.",
-        "options": [{
-            "text": "Romans 12:15",
-            "match":"Rejoice with those who rejoice, and weep with those who weep."
-          },
-          {
-            "text": "Romans 15:14",
-            "match": "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."
-          },
-          {
-            "text": "Romans 12:2",
-            "match": "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what the will of God is, that which is good and acceptable and perfect."
-          }
+        "options": [[
+            "Romans 12:15","Rejoice with those who rejoice, and weep with those who weep."
+          ],
+          [
+            "Romans 15:14",
+            "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."
+          ],
+          [
+            "Romans 12:2",
+            "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what the will of God is, that which is good and acceptable and perfect."
+          ]
         ],
         "response": "Romans 12:15, Romans 15:14, Romans 12:2"
       },
@@ -370,18 +426,15 @@
       {
         "type": "sort",
         "body": "Drag the term to its definition.",
-        "options": [{
-            "text": "Punctuated Equilibrium",
-            "match":"is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur."
-          },
-          {
-            "text": "Inorganic Evolution/Abiogenesis",
-            "match":"Refers to the change from non-living chemical compounds to the first living organism."
-          },
-          {
-            "text": "Progressive Creationism",
-            "match": "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them."
-          }
+        "options": [
+          ["Punctuated Equilibrium",
+            "is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur."],
+          [
+            "Inorganic Evolution/Abiogenesis","Refers to the change from non-living chemical compounds to the first living organism."
+          ],
+          ["Progressive Creationism",
+           "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them."
+          ]
         ],
         "response": ""
       }

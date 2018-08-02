@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import AnswerButton from '../buttons/AnswerButton.vue'
+import AnswerButton from '../../buttons/AnswerButton.vue'
 import response from './Response.vue'
-import store from '../../store'
+import store from '../../../store'
 
 export default {
   components: {

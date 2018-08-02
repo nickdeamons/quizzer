@@ -43,7 +43,7 @@ export default {
             console.log('authenticated:', data.user.email)
             // alert(`You ${user} are created!`)
             store.dispatch('login', data.user)
-            this.$router.replace('/quiz')
+            this.$router.replace('/select')
           }, 
           (err) => {
             this.loginAttempt = false;

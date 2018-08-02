@@ -12,6 +12,11 @@ Vue.use(Vuex)
 const getters = {
   loaded: (state) => {
     return state.loaded
+  },
+  quizzes: (state) => {
+    //eslint-disable-next-line
+    console.log('attemped to get', state.quizzes)
+    return state.quizzes
   }
 }
 const mutations = {

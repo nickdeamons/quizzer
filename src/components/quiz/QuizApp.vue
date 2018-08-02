@@ -8,14 +8,15 @@
 
 <script>
 
-import Loader from './Loader.vue'
+import Loader from '../Loader.vue'
+import Logout from '../Logout.vue'
+
 import Quiz from './Quiz.vue'
 import Results from './Results.vue'
-import Logout from './Logout.vue'
 
 import {mapGetters, mapActions} from 'vuex'
 
-import store from '../store'
+// import store from '../../store'
 
 export default {
   components: {
@@ -31,7 +32,7 @@ export default {
     ...mapActions(['populate', 'correctAnswer'])
   },
   mounted: function() {
-    store.dispatch('populate')
+    // store.dispatch('populate')
   },
   watch: {
     isComplete: function(newVal, oldVal) {

@@ -6,10 +6,16 @@
 
 import firebase from 'firebase'
 
+import store from '../store'
+
+// import {mapActions} from 'vuex'
+
+
 export default {
   methods: {
     logout: function() {
       firebase.auth().signOut().then(() => {
+        store.dispatch('logout')
         this.$router.replace('login')
       })
     }
