@@ -21,8 +21,10 @@ npm run lint
 ```
 
 ### Create a src/firebase-config.js
-example: import firebase from 'firebase'
+example: 
 ```
+import firebase from 'firebase'
+
 const config = {
   apiKey: "xxxxxxxxxx",
   authDomain: "xxxxxxxx.firebaseapp.com",
