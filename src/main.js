@@ -6,7 +6,6 @@ import Sortable from 'vue-sortable'
 import VueRouter from 'vue-router'
 import QuizApp from './components/QuizApp'
 import Results from './components/Results'
-
 import firebase from 'firebase'
 
 Vue.config.productionTip = false
@@ -41,16 +40,7 @@ router.beforeEach((to, from, next) => {
   else next()
 })
 
-const config = {
-  apiKey: "AIzaSyAguPCIxUUrToYksTf1dwy3IJ5_lu1Qvnw",
-  authDomain: "intense-heat-3679.firebaseapp.com",
-  databaseURL: "https://intense-heat-3679.firebaseio.com",
-  projectId: "intense-heat-3679",
-  storageBucket: "intense-heat-3679.appspot.com",
-  messagingSenderId: "266803128668"
-};
 
-firebase.initializeApp(config);
 // firebase.auth().onAuthStateChanged(function (user))
 
 new Vue({

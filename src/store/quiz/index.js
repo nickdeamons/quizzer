@@ -1,18 +1,28 @@
 import Vue from 'vue';
 import shuffle from '../../utils/shuffle';
+
 // const axios = require('axios');
+
+import {firebaseAction} from 'vuexfire'
+import { db} from '../../firebase-config'
+
+const setQuizRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
+  bindFirebaseRef('questions', ref)
+  // unbindFirebaseRef('quizzes')
+})
+
 
 const getters = {
   questions: (state) => {
-    return state.quiz.questions
+    return state.questions
   },
   isComplete: (state) => {
     return state.complete
   },
   percentage: (state) => {
     let score = 0
-    if(state.quiz.questions) {
-      state.quiz.questions.forEach((element) => {
+    if(state.questions) {
+      state.questions.forEach((element) => {
         if (element.correct) {
           score++;
         }
@@ -20,32 +30,32 @@ const getters = {
       if (score === 0) {
         return 0
       } else {
-        return Math.floor(score / state.quiz.questions.length * 100)
+        return Math.floor(score / state.questions.length * 100)
       }
     }
   }
 }
 
 const mutations = {
-  POPULATE (state, quiz) {
-    state.quiz = quiz
-    state.quiz.questions.forEach((element, index) => {
+  POPULATE (state) {
+    // state.questions = questions
+    state.questions.forEach((element, index) => {
       Vue.set(element, 'questionId', `q-${index}`)
       Vue.set(element, 'correct', false)
       Vue.set(element, 'answered', false)
     })
   },
   SHUFFLE (state) {
-    state.quiz.questions = shuffle(state.quiz.questions)
+    state.questions = shuffle(state.questions)
   },
   ANSWER(state, questionId) {
-    state.quiz.questions.forEach((element) => {
+    state.questions.forEach((element) => {
       if(element.questionId === questionId) {
         element.answered = true
       }
     });
     // We've answered another question, check if we're done with the quiz
-    if (state.quiz.questions.findIndex((element) => {
+    if (state.questions.findIndex((element) => {
       return !element.answered
     }) >= 0) {
       state.complete = false
@@ -54,14 +64,14 @@ const mutations = {
     }
   },
   CORRECT_ANSWER (state, questionId) {
-    state.quiz.questions.forEach((element) => {
+    state.questions.forEach((element) => {
       if(element.questionId === questionId) {
         element.correct = true
       }
     });
   },
   RESET (state) {
-    state.quiz.questions.forEach((element) => {
+    state.questions.forEach((element) => {
       element.correct = false
       element.answered = false
     })
@@ -70,6 +80,7 @@ const mutations = {
 }
 
 const actions = {
+  setQuizRef,
   answer({
     commit
   }, questionId) {
@@ -84,11 +95,32 @@ const actions = {
     commit
   }) {
     commit('RESET')
+  },
+  populate(
+    {commit}
+  ) {
+    setTimeout(() => {
+      this.dispatch('setQuizRef', db.ref('quizQuestions/q1'))
+        .then(() => {
+          commit('POPULATE')
+          commit('LOADED')
+        })
+      // commit('LOADED') /* */
+      /*
+      axios.get('/data/front-end-quiz.json', {
+          responseType: 'json'
+        })
+        .then((response) => {
+          commit('POPULATE', response.data)
+          // commit('SHUFFLE')
+          commit('LOADED')
+        }); */
+    }, 500)
   }
 }
 
 const state = {
-  quiz: {},
+  questions: [],
   complete: false
 }
 

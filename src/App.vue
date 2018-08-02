@@ -10,6 +10,7 @@
 
 import './assets/styles.scss'
 import store from './store'
+import { db } from './firebase-config'
 
 export default {
   name: 'app',
@@ -17,6 +18,9 @@ export default {
   mounted: function(){
     // store.dispatch('populate')
     this.$router.push('/login')
+  },
+  created: function () {
+    store.dispatch('setQuizzesRef', db.ref('quizzes'))
   }
 }
 </script>

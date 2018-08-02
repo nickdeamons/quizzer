@@ -4,7 +4,8 @@ import Vuex from '../node_modules/vuex';
 import quiz from './store/quiz'
 import users from './store/users'
 
-const axios = require('axios');
+import {firebaseMutations, firebaseAction} from 'vuexfire'
+// const axios = require('axios');
 
 Vue.use(Vuex)
 
@@ -14,25 +15,19 @@ const getters = {
   }
 }
 const mutations = {
+  ...firebaseMutations,
   LOADED (state) {
     state.loaded = true
   }
 }
+
+const setQuizzesRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
+  bindFirebaseRef('quizzes', ref)
+  // unbindFirebaseRef('quizzes')
+})
+
 const actions = {
-  populate({
-    commit
-  }) {
-    setTimeout(() => {
-      axios.get('/data/front-end-quiz.json', {
-          responseType: 'json'
-        })
-        .then((response) => {
-          commit('POPULATE', response.data)
-          // commit('SHUFFLE')
-          commit('LOADED')
-        });
-    }, 500)
-  }
+  setQuizzesRef,
 }
 
 export default new Vuex.Store({
@@ -44,6 +39,7 @@ export default new Vuex.Store({
     users
   },
   state: {
-    loaded: false
+    loaded: false,
+    quizzes: []
   }
 })

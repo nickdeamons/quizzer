@@ -5,6 +5,62 @@
     "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
   }],
   "quizQuestions": {
+    "q0": [
+      {
+        "type": "fillIn",
+        "body": "______ should be lower case and dash-delimited.",
+        "dictionary": ["CSS Selectors"],
+        "response": "The answer is CSS Selectors."
+      },
+      {
+        "type": "multi",
+        "body": "Select all the code standards that apply for Dynamit Front-End",
+        "options": [{
+          "text": "Write JavaScript in modules.",
+          "correct": true
+          },
+          {
+          "text": "Write IE10 compatible JavaScript when possible.",
+          "correct": false
+          },
+          {
+          "text": "All SPAs are to be done in React.",
+          "correct": false
+          }
+        ],
+        "response": "<strong>Write JavaScript in modules</strong>."
+      },
+      {
+        "type": "trueFalse",
+        "body": "For accessibility, do not use <code>&lt;meta name='viewport' content='user-scalable=no' /&gt;</code>. Users must be able to zoom.",
+        "answer": false,
+        "response": "The answer is false."
+      },
+      {
+        "type": "fillIn",
+        "body": "_________ bundles and optimizes JavaScript into chunks.",
+        "dictionary": ["Webpack"],
+        "response": "The answer is <em>Webpack</em>"
+      },
+      {
+        "type": "multi",
+        "body": "Select all the code standards that apply for Dynamit Front-End",
+        "response": "All of these are true!",
+        "options": [{
+          "text": "Do not apply classes to &lt;strong&gt;",
+          "correct": true
+          },
+          {
+          "text": "In SASS, add empty lines between nested declaration blocks.",
+          "correct": true
+          },
+          {
+          "text": "You can use React, Vue, or Angular on a per-project basis.",
+          "correct": true
+          }
+        ]
+      }
+    ],
     "q1": [{
         "type": "fillIn",
         "body": "Since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that men are without excuse.",
