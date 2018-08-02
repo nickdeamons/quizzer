@@ -100,7 +100,7 @@ const actions = {
     {commit}
   ) {
     setTimeout(() => {
-      this.dispatch('setQuizRef', db.ref('quizQuestions/q1'))
+      this.dispatch('setQuizRef', db.ref('quizQuestions/q0'))
         .then(() => {
           commit('POPULATE')
           commit('LOADED')
