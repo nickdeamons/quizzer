@@ -1,12 +1,5 @@
 {
   "quizzes": [{
-<<<<<<< HEAD
-    "id": "q1",
-    "title": "LTC 5",
-    "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
-  }],
-  "quizQuestions": {
-=======
       "id": "q1",
       "title": "LTC 5",
       "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
@@ -487,7 +480,6 @@
         "response": "Git pull request/pull request."
       }
     ],
->>>>>>> firebase
     "q1": [{
         "type": "fillIn",
         "body": "Since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that men are without excuse.",
@@ -517,20 +509,6 @@
       {
         "type": "sort",
         "body": "Match the verses to their content.",
-<<<<<<< HEAD
-        "options": [{
-            "text": "Romans 12:15",
-            "match":"Rejoice with those who rejoice, and weep with those who weep."
-          },
-          {
-            "text": "Romans 15:14",
-            "match": "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."
-          },
-          {
-            "text": "Romans 12:2",
-            "match": "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what the will of God is, that which is good and acceptable and perfect."
-          }
-=======
         "options": [
           [
             "Romans 12:15", "Rejoice with those who rejoice, and weep with those who weep."
@@ -543,7 +521,6 @@
             "Romans 12:2",
             "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what the will of God is, that which is good and acceptable and perfect."
           ]
->>>>>>> firebase
         ],
         "response": "Romans 12:15, Romans 15:14, Romans 12:2"
       },
@@ -597,17 +574,9 @@
       },
       {
         "type": "fillIn",
-<<<<<<< HEAD
-        "body": "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ.",
-        "dictionary": [
-          "2 Cor 10:5", "2Cor10:5, 2 Corinthians 10:5"
-        ],
-        "response": "2 Cor 10:5"
-=======
         "body": "2 Corinthians 10:5",
         "dictionary": ["We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ."],
         "response": "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ."
->>>>>>> firebase
       },
       {
         "type": "multi",
@@ -630,11 +599,7 @@
       {
         "type": "fillIn",
         "body": "This verse teaches that God will lead willing people.",
-<<<<<<< HEAD
-        "dictionary": ["Ps 32:8-9"],
-=======
         "dictionary": ["Ps 32:8-9", "Ps 32:8,9"],
->>>>>>> firebase
         "response": "Ps 32:8-9"
       },
       {
@@ -647,11 +612,7 @@
         "type": "fillIn",
         "body": "Speak words that edify&hellip; Be kind to one another, tender-hearted",
         "dictionary": ["Eph 4:29,32", "Ephesians 4:29,32"],
-<<<<<<< HEAD
-        "response": "Eph 4:29, 32"
-=======
         "response": "Eph 4:29,32"
->>>>>>> firebase
       },
       {
         "type": "fillIn",
@@ -826,20 +787,6 @@
       {
         "type": "sort",
         "body": "Drag the term to its definition.",
-<<<<<<< HEAD
-        "options": [{
-            "text": "Punctuated Equilibrium",
-            "match":"is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur."
-          },
-          {
-            "text": "Inorganic Evolution/Abiogenesis",
-            "match":"Refers to the change from non-living chemical compounds to the first living organism."
-          },
-          {
-            "text": "Progressive Creationism",
-            "match": "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them."
-          }
-=======
         "options": [
           ["Punctuated Equilibrium",
             "is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur."
@@ -850,7 +797,6 @@
           ["Progressive Creationism",
             "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them."
           ]
->>>>>>> firebase
         ],
         "response": ""
       }
