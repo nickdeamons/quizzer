@@ -17,6 +17,11 @@ const getters = {
     //eslint-disable-next-line
     console.log('attemped to get', state.quizzes)
     return state.quizzes
+  },
+  getQuizById: (state, id) => {
+    return state.quizzes.find((element) => {
+      return element.id == id
+    })
   }
 }
 const mutations = {
@@ -31,8 +36,10 @@ const setQuizzesRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
   // unbindFirebaseRef('quizzes')
 })
 
+
+
 const actions = {
-  setQuizzesRef,
+  setQuizzesRef
 }
 
 export default new Vuex.Store({
