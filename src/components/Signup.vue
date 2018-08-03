@@ -1,9 +1,15 @@
 <template>
   <div class="sign-up">
-    <p>Let's make a new account!</p>
-    <input type="text" placeholder="Email" v-model="email" /><br />
-    <input type="password" placeholder="Password" v-model="password" /><br />
-    <button class="login">Sign Up</button><router-link class="button back" to="/login">Back</router-link>
+    <div v-if="!success">
+      <p class="">Let's make a new account!</p>
+      <input type="text" placeholder="Email" v-model="email" /><br />
+      <input type="password" placeholder="Password" v-model="password" /><br />
+      <button class="login" @click="signUp">Sign Up</button><router-link class="button back" to="/login">Back</router-link>
+    </div>
+    <div v-else>
+      <div >You account for, {{email}} is ready to go!</div>
+      <router-link class="button back" to="/login">Back</router-link>
+    </div>
   </div>
 </template>
 
@@ -16,16 +22,20 @@ export default {
   data: function() {
     return {
       email: '',
-      password: ''
+      password: '',
+      success: false
     }
   },
   methods:{
     signUp: function() {
+      const self = this
       firebase.auth().createUserWithEmailAndPassword(this.email, this.password)
         .then(
-          function (user) {
+          function () {
             //eslint-disable-next-line
-            alert(`You ${user} are created!`)
+            // alert(`You account for, ${user.user.email} is ready to go!`)
+            // self.$router.go('/login')
+            self.success = true
           }, 
           function (err) {
             //eslint-disable-next-line

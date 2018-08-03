@@ -123,9 +123,6 @@ export default {
     margin: 0px auto 20px;
     width: 100%;
   }
-  .match-table__rows {
-    cursor: pointer;
-  }
   .match-table__column {
     display: flex;
     margin:0;
@@ -133,6 +130,8 @@ export default {
     border: 1px solid #222;
     padding: 0 10px;
     width: 50%;
+    overflow-y: scroll;
+    height: 100px;
   }
   
   .sortable-ghost {

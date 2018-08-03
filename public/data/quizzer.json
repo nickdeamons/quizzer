@@ -1,42 +1,406 @@
 {
   "quizzes": [{
-    "id": "q1",
-    "title": "LTC 5",
-    "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
-  },
-  {
-    "id": "q0",
-    "title": "Dynamit Front End Quiz",
-    "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
-  }],
+      "id": "q1",
+      "title": "LTC 5",
+      "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
+    },
+    {
+      "id": "q0",
+      "title": "Dynamit Front End Quiz",
+      "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
+    },
+    {
+      "id": "q2",
+      "title": "Christian Ministry 1 - Memory Verses",
+      "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
+    }
+  ],
   "quizQuestions": {
-    "q0": [
+    "q2": [{
+        "type": "multi",
+        "body": "What passage teaches that God's election is based on God's foreknowledge (evidently of who chooses to believe in Christ)? ",
+        "options": [{
+            "text": "Phil 2:6,7",
+            "correct": false
+          },
+          {
+            "text": "1 Peter 1b-2",
+            "correct": true
+          },
+          {
+            "text": "Lev 16",
+            "correct": false
+          }
+        ]
+      },
       {
+        "type": "multi",
+        "body": "The verse that proclaims, 'Christians will never be condemned by God.'",
+        "options": [{
+            "text": "John 10:27-30",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "Rom 8:1"
+          },
+          {
+            "text": "Phil 2:6,7",
+            "correct": false
+          },
+          {
+            "text": "1 Cor 15",
+            "correct": false
+          }
+        ]
+      },
+
+      {
+        "type": "multi",
+        "body": "This memory verse teaches that: Jesus has been resurrected, and his resurrection proves he is the Messiah and assures our salvation.",
+        "options": [{
+            "text": "Col 2:9",
+            "correct": false
+          },
+          {
+            "text": "1 Peter 1b-2",
+            "correct": false
+          },
+          {
+            "text": "Phil 2:6,7",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "1 Cor 15:1-23"
+          }
+        ]
+      },
+
+
+      {
+        "type": "multi",
+        "body": "This is a verse that teaches that God exists in more than 1 person.",
+        "options": [{
+            "correct": true,
+            "text": "Gen 1:26,27"
+          },
+          {
+            "text": "Exodus 34:6-8",
+            "correct": false
+          },
+          {
+            "text": "Phil 2:6,7",
+            "correct": false
+          },
+          {
+            "text": "Lev 16",
+            "correct": false
+          }
+        ]
+      },
+
+      {
+        "type": "multi",
+        "body": "Which of these is the best reference and quote for Jesus' qualities in the Hypostatic Union?",
+        "options": [{
+            "text": "Phil 2:6,7 `For who, being completely God, did not consider equality with God something to be used to his own advantage; rather he made himself everything by taking the nature of God, spiritually like a person`",
+            "correct": true
+          },
+          {
+            "text": "Col 2:9 `For in Christ the fullness of deity dwells in bodily form.`",
+            "correct": false
+          },
+          {
+            "text": "Col 2:9 `For in Christ, deity seemed like a man.`",
+            "correct": false
+          },
+          {
+            "text": "Phil 2:6,7 `For who, being in very nature God, did not consider equality with God something to be used to his own advantage; rather he made himself nothing by taking the very nature of a servant, being made in human likeness`",
+            "correct": false
+          }
+        ]
+      },
+
+
+      {
+        "type": "multi",
+        "body": "Which of these is the best reference and quote for how 'Jesus laid aside his divine privileges (including the use of certain divine attributes) at the Incarnation:",
+        "options": [{
+            "text": "Phil 2:6,7 'For who,being completely God, did not consider equality with God something to be used to his own advantage;rather he made himself everything by taking the nature of God, spiritually like a person ",
+            "correct": false
+          },
+          {
+            "text": "Col 2:9 'For in Christ the fullness of diety dwells in bodily form.'",
+            "correct": false
+          },
+          {
+            "text": "Col 2:9 'For in Christ, deity appeared like a man.",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "Phil 2:6,7 'For who, being in very nature God, did not consider equality with God something to be used to his own advange;rather he made himself nothing by taking the very nature of a servant, being made in human likeness "
+          }
+        ]
+      },
+      {
+        "type": "multi",
+        "body": "This memory verse teaches Federal Headship: the choice of the head affects all of his descendants.  Adam &amp; Jesus.",
+        "options": [{
+            "text": "1 Cor 15:1-23",
+            "correct": true
+          },
+          {
+            "text": "Rom 5:12-19",
+            "correct": false
+          },
+          {
+            "text": "Rom 3:9-20",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multi",
+        "body": "What memory verse best fits the statement: 'Total depravity describes the effects of the Fall.'",
+        "options": [{
+            "text": "Rom 3:23,24",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "Rom 3:9-20"
+          },
+          {
+            "text": "Rom 5:12-19",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multi",
+        "body": "This memory verse teaches that the Day of Atonment is a clear example of subsitutionary atonement for that nation of Israel:",
+        "options": [{
+            "text": "Isaiah 53",
+            "correct": false
+          },
+          {
+            "text": "Exodus 34:6-8",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "Lev 16"
+          }
+        ]
+      },
+      {
+        "type": "multi",
+        "body": "This passage makes it clear that the Old Testament sacrifical system must be fulfilled by a person; the Servant of the Lord:",
+        "options": [{
+            "text": "Lev 16",
+            "correct": false
+          },
+          {
+            "text": "1 Cor 15:1-23",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "Isa 53"
+          },
+          {
+            "text": "Rom 3:23,24",
+            "correct": false
+          }
+        ]
+      },
+
+      {
+        "type": "multi",
+        "body": "This memory verse teaches that, 'All humans fall justly under God's condemnation because of their sins, but all humans are acceptable to God if they receive JEsus' atoning death for their sins:'",
+        "options": [{
+            "text": "Phil 2:6,7",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "Rom 3:23,24"
+          },
+          {
+            "text": "1 John 2:15,16",
+            "correct": false
+          }
+        ]
+      },
+
+      {
+        "type": "multi",
+        "body": "This verse (NIV), 'For all have sinned and fallen short of the glory of God and all are justified freely by his grace through the redemption that came by Christ Jesus.' is:",
+        "options": [{
+            "correct": true,
+            "text": "Rom 3:23,24"
+          },
+          {
+            "text": "Phil 2:6,7",
+            "correct": false
+          },
+          {
+            "text": "1 Peter 1b,2",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "multi",
+        "body": "This memory verse, 'And do not grieve the Holy Spirit of God, with whom you were sealed for the day of redemption.' is:",
+        "options": [{
+            "text": "Rom 8:1",
+            "correct": false
+          },
+          {
+            "text": "John 10:27-30",
+            "correct": false
+          },
+          {
+            "text": " 1 John 2:15,16",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "Eph 4:30"
+          }
+        ]
+      },
+
+      {
+        "type": "multi",
+        "body": "This memory verse teaches that Christians are sealed for safe passage to Heaven:",
+        "options": [{
+            "text": "Rom 8:1",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "Eph 4:30"
+          }
+        ]
+      },
+
+      {
+        "type": "multi",
+        "body": "This memory verse teaches that Jesus will not allow anyone to snatch believes from His hand:",
+        "options": [{
+            "text": "Rom 8:1",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "John 10:27,30"
+          },
+          {
+            "text": "Eph 4:30",
+            "correct": false
+          }
+        ]
+      },
+
+
+      {
+        "type": "multi",
+        "body": "This memory verse teaches that Jesus Christ died for the sins of the whole world, not just believers.",
+        "options": [{
+            "correct": true,
+            "text": "1 John 2:2"
+          },
+          {
+            "text": "1 Peter 1b-2",
+            "correct": false
+          },
+          {
+            "text": "2 Peter 3:9",
+            "correct": false
+          }
+        ]
+      },
+
+      {
+        "type": "multi",
+        "body": "This memory verse, 'To God’s elect, exiles scattered throughout the provinces of Pontus, Galatia, Cappadocia, Asia and Bithynia, who have been chosen according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, to be obedient to Jesus Christ and sprinkled with his blood: Grace and peace be yours in abundance.' is:",
+        "options": [{
+            "text": "1 John 1:2",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "1 Peter 1b-2"
+          }
+        ]
+      },
+
+      {
+        "type": "multi",
+        "body": "This memory verse teaches that God's will is for all people to be saved.",
+        "options": [{
+            "text": "1 John 2:2",
+            "correct": false
+          },
+          {
+            "text": "1 Peter 1b-2",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "2 Peter 3:9"
+          }
+        ]
+      },
+
+      {
+        "type": "multi",
+        "body": "This memory verse, 'The Lord is not slow in keeping his promise, as some understand slowness.Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.' is:",
+        "options": [{
+            "text": "1 John 2:2",
+            "correct": false
+          },
+          {
+            "text": "2 Thess 1b-2",
+            "correct": false
+          },
+          {
+            "correct": true,
+            "text": "2 Peter 3:9"
+          }
+        ]
+      }
+    ],
+    "q0": [{
         "type": "fillIn",
         "body": "______ should be lower case and dash-delimited.",
-        "dictionary": ["CSS Selectors"],
-        "response": "The answer is CSS Selectors."
+        "dictionary": ["CSS Selectors", "css classes", "classes"],
+        "response": "The answer is CSS Selectors aka classes."
       },
       {
         "type": "fillIn",
-        "body": "The array method ______, called by an empty array <code>[]</code> with an existing array as its only parameter, is a quick way to make a NEW INSTANCE of an array that its copy.",
-        "dictionary": ["concat"],
-        "response": "[].concat()"
+        "body": "The array method ______, <em>.method(param)</em>, called by an empty array <code>[]</code> with an existing array as its only parameter, is a quick way to make a NEW INSTANCE of an array that its copy.",
+        "dictionary": ["concat", "[].concat()", "concat", "concat()"],
+        "response": "concat(), ex: [].concat()"
       },
       {
         "type": "multi",
         "body": "Select all the code standards that apply for Dynamit Front-End",
         "options": [{
-          "text": "Write JavaScript in modules.",
-          "correct": true
+            "text": "Write JavaScript in modules.",
+            "correct": true
           },
           {
-          "text": "Write IE10 compatible JavaScript when possible.",
-          "correct": false
+            "text": "Write IE10 compatible JavaScript when possible.",
+            "correct": false
           },
           {
-          "text": "All SPAs are to be done in React.",
-          "correct": false
+            "text": "All SPAs are to be done in React.",
+            "correct": false
           }
         ],
         "response": "<strong>Write JavaScript in modules</strong>."
@@ -44,24 +408,23 @@
       {
         "type": "multi",
         "body": "In ES6, an arrow function _____________ and ____________",
-        "options": [
-          {
-            "text":"Does NOT have its own <code>this</code>",
-            "correct":true
+        "options": [{
+            "text": "has its own <code>this</code>",
+            "correct": false
           },
           {
-            "text":"May have a concise body instead of a block body",
-            "correct":true
+            "text": "may have a concise body instead of a block body",
+            "correct": true
           },
           {
-            "text":"is the same as <code>function</code>",
-            "correct":false
+            "text": "is a <code>function</code>",
+            "correct": true
           }
         ]
       },
       {
         "type": "trueFalse",
-        "body": "For accessibility, do not use <code>&lt;meta name='viewport' content='user-scalable=no' /&gt;</code>. Users must be able to zoom.",
+        "body": "For accessibility, use <code>&lt;meta name='viewport' content='user-scalable=no' /&gt;</code>. Users must NOT be able to zoom.",
         "answer": false,
         "response": "The answer is false."
       },
@@ -79,7 +442,7 @@
       },
       {
         "type": "trueFalse",
-        "body": "Arrow functions are supported in IE Edge and Safari 10",
+        "body": "Arrow functions are supported in IE Edge and Safari 9",
         "answer": false,
         "response": "The answer is false. Arrow functions have support in Safari 11.1"
       },
@@ -88,27 +451,26 @@
         "body": "Select all the code standards that apply for Dynamit Front-End",
         "response": "All of these are true!",
         "options": [{
-          "text": "Do not apply classes to &lt;strong&gt;",
-          "correct": true
+            "text": "Do not apply classes to &lt;strong&gt;",
+            "correct": true
           },
           {
-          "text": "In SASS, add empty lines between nested declaration blocks.",
-          "correct": true
+            "text": "In SASS, add empty lines between nested declaration blocks.",
+            "correct": true
           },
           {
-          "text": "You can use React, Vue, or Angular on a per-project basis.",
-          "correct": true
+            "text": "You can use React, Vue, or Angular on a per-project basis.",
+            "correct": true
           }
         ]
       },
       {
-        "type":"sort",
-        "body":"Match these accessibility guidelines to their A-Level",
-        "options":[
+        "type": "sort",
+        "body": "Match these accessibility guidelines to their A-Level",
+        "options": [
           ["Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.", "Level A"],
           ["All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.", "Level AAA"],
-          ["If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.", "Level AA"],
-          ["If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.", "Level A"]
+          ["If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.", "Level AA"]
         ]
       },
       {
@@ -147,8 +509,9 @@
       {
         "type": "sort",
         "body": "Match the verses to their content.",
-        "options": [[
-            "Romans 12:15","Rejoice with those who rejoice, and weep with those who weep."
+        "options": [
+          [
+            "Romans 12:15", "Rejoice with those who rejoice, and weep with those who weep."
           ],
           [
             "Romans 15:14",
@@ -211,11 +574,9 @@
       },
       {
         "type": "fillIn",
-        "body": "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ.",
-        "dictionary": [
-          "2 Cor 10:5", "2Cor10:5, 2 Corinthians 10:5"
-        ],
-        "response": "2 Cor 10:5"
+        "body": "2 Corinthians 10:5",
+        "dictionary": ["We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ."],
+        "response": "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ."
       },
       {
         "type": "multi",
@@ -238,7 +599,7 @@
       {
         "type": "fillIn",
         "body": "This verse teaches that God will lead willing people.",
-        "dictionary": ["Ps 32:8-9"],
+        "dictionary": ["Ps 32:8-9", "Ps 32:8,9"],
         "response": "Ps 32:8-9"
       },
       {
@@ -251,7 +612,7 @@
         "type": "fillIn",
         "body": "Speak words that edify&hellip; Be kind to one another, tender-hearted",
         "dictionary": ["Eph 4:29,32", "Ephesians 4:29,32"],
-        "response": "Eph 4:29, 32"
+        "response": "Eph 4:29,32"
       },
       {
         "type": "fillIn",
@@ -428,12 +789,13 @@
         "body": "Drag the term to its definition.",
         "options": [
           ["Punctuated Equilibrium",
-            "is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur."],
+            "is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur."
+          ],
           [
-            "Inorganic Evolution/Abiogenesis","Refers to the change from non-living chemical compounds to the first living organism."
+            "Inorganic Evolution/Abiogenesis", "Refers to the change from non-living chemical compounds to the first living organism."
           ],
           ["Progressive Creationism",
-           "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them."
+            "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them."
           ]
         ],
         "response": ""

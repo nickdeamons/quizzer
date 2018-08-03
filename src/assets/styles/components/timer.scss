@@ -1,4 +1,5 @@
 .timer {
+  span {
   text-align: center;
   line-height: 2em;
   color: #222;
@@ -7,7 +8,8 @@
   width: auto;
   font-size: 0.75em;
   position: absolute;
-  top: 0;
+  top: -2em;
   right: 0;
   z-index: 3;
+  }
 }

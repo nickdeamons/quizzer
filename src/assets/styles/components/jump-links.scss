@@ -1,5 +1,5 @@
 .jump-links {
-  margin-top: 2em;
+  margin: 2em 0;
   > span {
     display: inline-block;
     padding: 0 5px;
@@ -19,7 +19,7 @@
     font-weight: bold;
     color: $blue;
   }
-  a {
+  a, span {
     &.correct {
       color: rgba(#222, 0.33);
       position: relative;
@@ -46,8 +46,10 @@
 
     
   }
+  
   span.incorrect {
     position: relative;
+    display: inline-block;
     color: rgba(#222, 0.33);
     &:before {
       content: 'X';

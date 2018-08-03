@@ -4,7 +4,7 @@
     <input type="text" placeholder="Email" v-model="email" /><br />
     <input type="password" placeholder="Password" v-model="password" /><br />
     <button class="login" @click="login">Login</button>
-    <p>No account? You can create one</p>
+    <p>No account? <router-link to="signup">You can create one.</router-link></p>
     <Loader v-if="loginAttempt" />
   </div>
 </template>

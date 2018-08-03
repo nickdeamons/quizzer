@@ -19,6 +19,7 @@
       <div v-html="question.response" class="question__text" :class="{'correct': question.correct, 'incorrect':!question.correct}" />
     </div>
     <button @click="reset" class="button prev">Take the quiz again</button>
+    <Logout />
   </div>
 </template>
 
@@ -28,7 +29,12 @@ import {mapGetters} from 'vuex'
 
 import store from '../../store'
 
+import Logout from '../Logout.vue'
+
 export default {
+  components: {
+    Logout
+  },
   computed: {
     ...mapGetters(['questions', 'percentage'])
   },

@@ -4,6 +4,7 @@
     <div v-for="quiz in quizzes" :key="`qz_${quiz.id}`" style="margin-top: 1em;">
       <button @click="selectQuiz(quiz.id)">{{quiz.title}}</button>
     </div>
+    <Logout />
   </div>
 </template>
 
@@ -13,7 +14,12 @@ import store from '../store'
 
 import {mapGetters} from 'vuex'
 
+import Logout from './Logout'
+
 export default {
+  components: {
+    Logout
+  },
   data: function () {
     return {
       selectedQuiz: ''

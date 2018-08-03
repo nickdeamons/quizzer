@@ -122,6 +122,7 @@ const actions = {
         .then(() => {
           commit('POPULATE')
           commit('LOADED')
+          // commit('SHUFFLE')
         })
       // commit('LOADED') /* */
       /*
