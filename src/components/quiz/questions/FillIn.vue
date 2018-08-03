@@ -10,24 +10,19 @@
     <div v-if="!correct">
       <answer-button :submit="isCorrect" />
     </div>
-    <div v-if="answered" class="question__text">
-      <div v-if="correct" class="correct">
-        Correct!
-      </div>
-      <div v-else class="incorrect">
-        Incorrect: <span v-html="question.response" />
-      </div>
-    </div>
+    <response :answered="answered" :correct="correct" :question="question" />
   </div>
 </template>
 
 <script>
-import AnswerButton from '../buttons/AnswerButton.vue'
-import store from '../../store'
+import AnswerButton from '../../buttons/AnswerButton.vue'
+import response from './Response.vue'
+import store from '../../../store'
 
 export default {
   components: {
-    'answer-button': AnswerButton
+    'answer-button': AnswerButton,
+    response
   },
   props: {
     question: Object,

@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <h1>Quizzer</h1>
-    <Loader v-if="!loaded" />
-    <Quiz :quiz-data="questions" v-if="loaded && !isComplete" :correctAnswer="correctAnswer" :percentage="percentage" />
-    <Results v-if="isComplete" :quiz-data="questions" :percentage="percentage" />
+    <router-view></router-view>
   </div>
 </template>
 
@@ -11,30 +9,18 @@
 // import HelloWorld from './components/HelloWorld.vue'
 
 import './assets/styles.scss'
-
-import Loader from './components/Loader.vue'
 import store from './store'
-import Quiz from './components/Quiz.vue'
-import Results from './components/Results.vue'
-
-import { mapActions, mapGetters } from 'vuex'
+import { db } from './firebase-config'
 
 export default {
   name: 'app',
   store,
-  components: {
-    Loader,
-    Quiz,
-    Results
-  },
-  computed: {
-    ...mapGetters(['loaded', 'questions', 'percentage', 'isQuestionCorrect','isComplete'])
-  },
-  methods: {
-    ...mapActions(['populate', 'correctAnswer'])
-  },
   mounted: function(){
-    store.dispatch('populate')
+    // store.dispatch('populate')
+    this.$router.push('/login')
+  },
+  created: function () {
+    store.dispatch('setQuizzesRef', db.ref('quizzes'))
   }
 }
 </script>

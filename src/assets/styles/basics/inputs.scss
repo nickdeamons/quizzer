@@ -19,7 +19,7 @@ input[type='checkbox'] {
   }
 }
 
-input[type='text'] {
+input[type='text'], input[type='password'], input[type='email'] {
   width: 100%;
   display: block;
   box-sizing: border-box;

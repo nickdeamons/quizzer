@@ -1,32 +1,44 @@
-* {
-  box-sizing: border-box;
-}
-
 @import 'breakpoint-sass';
-
 @import 'styles/utils/vars';
 @import 'styles/utils/fades';
-// @import 'styles/utils/icons';
 
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#app {
+  div,
+  p {
+    font-size: 1em;
+    
+    @include breakpoint($tablet) {
+      font-size: 18px;
+    }
+  }
+}
+
+
+// @import 'styles/utils/icons';
 /* Basics */
+@import 'styles/basics/links';
 @import 'styles/basics/inputs';
+@import 'styles/basics/code';
 @import 'styles/basics/buttons';
 @import 'styles/basics/grid';
 @import 'styles/basics/loader';
 @import 'styles/basics/headings';
 @import 'styles/basics/textarea';
-
 /* Components */
+
 @import 'styles/components/jump-links';
 @import 'styles/components/percentage';
 @import 'styles/components/question';
 @import 'styles/components/timer';
-
 /* Modules */
+
 @import 'styles/modules/questions';
 @import 'styles/modules/results';
 /* Pages */
 
 @import 'styles/pages/app';
-
 @import 'styles/fonts';

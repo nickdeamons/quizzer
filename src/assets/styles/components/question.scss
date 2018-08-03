@@ -2,11 +2,7 @@
   width: 100%;
   overflow: hidden;
   &__text {
-    font-size: 1em;
     margin-bottom: 1em;
-    @include breakpoint($tablet) {
-      font-size: 18px;
-    }
   }
   
   &__choice {
