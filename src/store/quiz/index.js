@@ -125,7 +125,7 @@ const actions = {
         .then(() => {
           commit('POPULATE')
           commit('LOADED', null, {root: true})
-          // commit('SHUFFLE')
+          commit('SHUFFLE')
         })
       // commit('LOADED') /* */
       /*
