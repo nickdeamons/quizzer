@@ -1,4 +1,4 @@
-import {firebaseAction} from 'vuexfire'
+import { moduleMutations } from 'vuexfire'
 import { db} from '../../firebase-config'
 
 const getters = {
@@ -6,15 +6,6 @@ const getters = {
     return state.currentUser
   }
 }
-
-const setScoresRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
-  return new Promise((resolve) => {
-    bindFirebaseRef('scores', ref, {wait: true, readyCallback: () => {
-      resolve()
-    }})
-  })
-  // unbindFirebaseRef('quizzes')
-})
 
 const actions = {
   login({
@@ -30,13 +21,13 @@ const actions = {
   logout({
     commit
   }) {
-    commit('RESET')
+    commit('quiz/RESET', null, {root: true})
     commit('LOGOUT')
-  },
-  setScoresRef 
+  }
 }
 
 const mutations = {
+  ...moduleMutations,
   LOGIN(state, user) {
     state.currentUser = user
     // state.authenticated = true
@@ -50,13 +41,13 @@ const mutations = {
 
 const state = {
   currentUser: {},
-  uid: '',
-  scores: []
+  uid: ''
 }
 
 export default {
   actions,
   mutations,
   getters,
-  state
+  state,
+  namespaced: true
 }

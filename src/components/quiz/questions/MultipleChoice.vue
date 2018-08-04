@@ -47,7 +47,7 @@ export default {
     isCorrect: function() {
       let is = true;
       this.answered = true;
-      store.dispatch('answer', this.question.questionId)
+      store.dispatch('quiz/answer', this.question.questionId)
       if(this.selectedChoices.length !== this.correctChoices.length) {
         is = false;
       } else {
@@ -61,7 +61,7 @@ export default {
       }
       this.correct = is;
       if(this.correct) {
-        store.dispatch('correctAnswer', this.question.questionId)
+        store.dispatch('quiz/correctAnswer', this.question.questionId)
       }
     }
   }

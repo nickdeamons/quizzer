@@ -68,7 +68,7 @@ export default {
     isCorrect: function() {
       let is = true
       this.answered = true;
-      store.dispatch('answer', this.question.questionId)
+      store.dispatch('quiz/answer', this.question.questionId)
       const matchBy = []
       for(let i = 0; i < this.question.options.length && is; i++) {
        
@@ -108,7 +108,7 @@ export default {
       */
       this.correct = is;
       if(this.correct) {
-        store.dispatch('correctAnswer', this.question.questionId)
+        store.dispatch('quiz/correctAnswer', this.question.questionId)
       }
     },
   }

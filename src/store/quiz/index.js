@@ -38,6 +38,9 @@ const getters = {
         return Math.floor(score / state.localQuestions.length * 100)
       }
     }
+  },
+  selectedQuizId: (state) => {
+    return state.selectedQuizId
   }
 }
 
@@ -93,7 +96,7 @@ const mutations = {
     //eslint-disable-next-line
     console.log(quizId)
     state.selectedQuizId = quizId
-    this.dispatch('populate')
+    this.dispatch('quiz/populate')
   }
 }
 
@@ -118,10 +121,10 @@ const actions = {
     {commit}
   ) {
     setTimeout(() => {
-      this.dispatch('setQuizRef', db.ref(`quizQuestions/${state.selectedQuizId}`))
+      this.dispatch('quiz/setQuizRef', db.ref(`quizQuestions/${state.selectedQuizId}`))
         .then(() => {
           commit('POPULATE')
-          commit('LOADED')
+          commit('LOADED', null, {root: true})
           // commit('SHUFFLE')
         })
       // commit('LOADED') /* */
@@ -154,5 +157,6 @@ export default {
     actions,
     getters,
     mutations,
-    state
+    state,
+    namespaced: true
 }

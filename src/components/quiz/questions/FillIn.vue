@@ -44,12 +44,12 @@ export default {
     isCorrect: function() {
       let is = false;
       this.answered = true;
-      store.dispatch('answer', this.question.questionId)
+      store.dispatch('quiz/answer', this.question.questionId)
       // check all teh accepted terms in the dictionary, ignoring case
       is = (this.accepted.findIndex((value) => { return value.toLowerCase() == this.guess.toLowerCase()}) >= 0);
       this.correct = is;
       if(this.correct) {
-        store.dispatch('correctAnswer', this.question.questionId)
+        store.dispatch('quiz/correctAnswer', this.question.questionId)
       }
     }
   }

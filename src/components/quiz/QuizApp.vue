@@ -16,7 +16,7 @@ import Results from './Results.vue'
 
 import {mapGetters, mapActions} from 'vuex'
 
-// import store from '../../store'
+import store from '../../store'
 
 export default {
   components: {
@@ -26,10 +26,14 @@ export default {
     Logout
   },
   computed: {
-    ...mapGetters(['loaded', 'questions', 'percentage', 'isQuestionCorrect','isComplete'])
+    ...mapGetters('quiz', ['questions', 'percentage', 'isQuestionCorrect', 'isComplete']),
+    ...mapGetters(['loaded']),
+    loaded: function() {
+      return store.state.loaded
+    }
   },
   methods: {
-    ...mapActions(['populate', 'correctAnswer'])
+    ...mapActions('quiz', ['populate', 'correctAnswer'])
   },
   mounted: function() {
     // store.dispatch('populate')

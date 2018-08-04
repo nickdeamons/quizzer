@@ -6,6 +6,7 @@ import users from './store/users'
 
 import {firebaseMutations, firebaseAction} from 'vuexfire'
 // const axios = require('axios');
+import {db} from './firebase-config'
 
 Vue.use(Vuex)
 
@@ -28,8 +29,19 @@ const mutations = {
   ...firebaseMutations,
   LOADED (state) {
     state.loaded = true
+  },
+  UPDATE_SCORE(state, scoreData) {
+    // state.scores[scoreIndex] = scoreObject
+    //eslint-disable-next-line
+    console.log(scoreData) 
+    db.ref(`scores/${state.users.uid}/${scoreData.scoreIndex}`).set(scoreData.data)
+  },
+  ADD_SCORE(state, score) {
+    // state.scores.push(score)
+    db.ref(`scores/${ state.users.uid}`).push(score)
   }
 }
+
 
 const setQuizzesRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
   bindFirebaseRef('quizzes', ref)
@@ -37,9 +49,36 @@ const setQuizzesRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
 })
 
 
+const setScoresRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
+  return new Promise((resolve) => {
+    bindFirebaseRef('scores', ref, {wait: true, readyCallback: () => {
+      resolve()
+    }})
+  })
+  // unbindFirebaseRef('quizzes')
+})
+
+
 
 const actions = {
-  setQuizzesRef
+  setQuizzesRef,
+  setScoresRef,
+  setScore({
+    commit, state,
+  }, scoreObject) {
+    let updateScoreOfQuiz = state.scores.findIndex((element) => {
+      return element.quizId === state.quiz.selectedQuizId
+    })
+    
+    if(updateScoreOfQuiz >= 0) {
+      commit('UPDATE_SCORE', {scoreIndex: state.scores[updateScoreOfQuiz]['.key'], data: scoreObject})
+      // state.scores[updateScoreOfQuiz] = scoreObject
+    } else {
+      commit('ADD_SCORE', scoreObject)
+    }
+    // this.dispatch('setScoresRef', state.scores)
+    // commit('SCORE', scoreObject, )
+  }
 }
 
 export default new Vuex.Store({
@@ -52,6 +91,7 @@ export default new Vuex.Store({
   },
   state: {
     loaded: false,
-    quizzes: []
+    quizzes: [],
+    scores: []
   }
 })

@@ -38,9 +38,9 @@ export default {
       // eslint-disable-next-line
       this.answered = true;
       this.correct = (this.selectedChoice === this.question.answer);
-      store.dispatch('answer', this.question.questionId)
+      store.dispatch('quiz/answer', this.question.questionId)
       if(this.correct) {
-        store.dispatch('correctAnswer', this.question.questionId)
+        store.dispatch('quiz/correctAnswer', this.question.questionId)
       }
     }
   }

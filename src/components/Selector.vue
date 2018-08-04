@@ -28,7 +28,7 @@ export default {
   methods: {
     selectQuiz: function(quizId) {
       this.selectedQuiz = quizId
-      store.dispatch('selectQuiz', this.selectedQuiz)
+      store.dispatch('quiz/selectQuiz', this.selectedQuiz)
       this.$router.push('/quiz')
     }
   },

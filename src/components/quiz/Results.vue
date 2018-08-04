@@ -36,13 +36,21 @@ export default {
     Logout
   },
   computed: {
-    ...mapGetters(['questions', 'percentage'])
+    ...mapGetters('quiz', ['questions', 'percentage', 'selectedQuizId'])
   },
   methods: {
     reset: function() {
-      store.dispatch('reset')
+      store.dispatch('quiz/reset')
       this.$router.push('quiz')
     }
+  },
+  mounted: function() {    
+    const scoreOjbect = {
+      "quizId" : this.selectedQuizId,
+      "timestamp": Date.now(),
+      "scored": this.percentage
+    }
+    store.dispatch('setScore', scoreOjbect)
   }
 }
 </script>
