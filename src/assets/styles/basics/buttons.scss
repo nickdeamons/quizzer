@@ -10,7 +10,7 @@ button, .button {
   border: 0;
   cursor: pointer;
   text-decoration: none;
-  padding: .25em 0.5em;
+  padding: .5em 1em;
 
   &.answer, &.login {
     // color: palegoldenrod;
@@ -18,7 +18,7 @@ button, .button {
     width: 100%;
     font-size: 1.25rem;
     line-height: 2em;
-    
+    padding: 0.25em 0.5em;
     background-color: rgba(rgb(60, 134, 73), 0.85);
     margin-bottom: 1em;
   }

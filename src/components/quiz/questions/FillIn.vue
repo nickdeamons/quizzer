@@ -45,8 +45,10 @@ export default {
       let is = false;
       this.answered = true;
       store.dispatch('quiz/answer', this.question.questionId)
-      // check all teh accepted terms in the dictionary, ignoring case
-      is = (this.accepted.findIndex((value) => { return value.toLowerCase() == this.guess.toLowerCase()}) >= 0);
+      // check all the accepted terms in the dictionary, ignoring case, ignoring spaces and punctuation
+      is = (this.accepted.findIndex((value) => { 
+        return value.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '') == this.guess.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '')
+        }) >= 0);
       this.correct = is;
       if(this.correct) {
         store.dispatch('quiz/correctAnswer', this.question.questionId)

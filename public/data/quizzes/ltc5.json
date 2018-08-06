@@ -320,7 +320,7 @@
   },
   {
     "type":"fillIn",
-    "body":"The word Nirvana literally means to 'blow out' in the sense of snuffing a candle. In Buddhist teaching this is the state of being free from both suffering and they cycle of rebirth. Although the experience cannot be described, the basic concept of it is that self is extinguished.",
+    "body":"The word _____________ literally means to 'blow out' in the sense of snuffing a candle. In Buddhist teaching this is the state of being free from both suffering and they cycle of rebirth. Although the experience cannot be described, the basic concept of it is that self is extinguished.",
     "dictionary":["Nirvana"],
     "response":"Nirvana"
   },
@@ -335,7 +335,7 @@
   },
   {
     "type":"fillIn",
-    "body":"Siddharta Gautama, who came to be called Buddha (“enlightened one”), was the founder the Buddhist religion. He was born in north-east India in 560 BC and died at the age of eighty.",
+    "body":"__________ __________, who came to be called Buddha (“enlightened one”), was the founder the Buddhist religion. He was born in north-east India in 560 BC and died at the age of eighty.",
     "dictionary":[
       "Siddhartha Gautama"
     ],
@@ -343,7 +343,7 @@
   },
   {
     "type":"fillIn",
-    "body":"The Bahavad Gita (‘Song of the Lord’) has sometimes been called the ‘the bible of Hinduism’ because of its popular appeal. It features Krisha.",
+    "body":"The ________ (‘Song of the Lord’) has sometimes been called the ‘the bible of Hinduism’ because of its popular appeal. It features Krisha.",
     "dictionary": [
       "Bhagavad Gita"
     ]
