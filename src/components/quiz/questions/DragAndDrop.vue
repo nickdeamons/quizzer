@@ -114,28 +114,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-  .match-table {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0px auto 20px;
-    width: 100%;
-  }
-  .match-table__column {
-    display: flex;
-    margin:0;
-    cursor: pointer;
-    border: 1px solid #222;
-    padding: 0 10px;
-    width: 50%;
-    overflow-y: scroll;
-    height: 100px;
-  }
-  
-  .sortable-ghost {
-    opacity: 0.25;
-  }
-</style>
-
