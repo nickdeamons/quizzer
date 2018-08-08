@@ -19,8 +19,6 @@ Vue.use(Sortable);
 Vue.use(VueRouter);
 
 const routes = [
-  // { path: '/', redirect: '/', alias: '/question/:id' },
-  // { name: 'question', path: '/question/:id', component: App }
   { name: 'login', path: '/login', component: Login },
   { name: 'signup', path: '/signup', component: Signup },
   { name: 'selector', path: '/select', component: Selector},
@@ -31,24 +29,21 @@ const routes = [
 const router = new VueRouter(
   {
     base: document.querySelector('#app').getAttribute('data-path') || '/',
-    mode: 'history', 
+    mode: 'history',
     routes
   }
 )
 
 router.beforeEach((to, from, next) => {
-  //eslint-disable-next-line 
   let currentUser = firebase.auth().currentUser;
   let requiresAuth = to.matched.some(record => record.meta.requiresAuth);
 
-  if(requiresAuth && !currentUser) { 
+  if(requiresAuth && !currentUser) {
     next('login')
   } else {
     next()
   }
-  
 })
-
 
 // firebase.auth().onAuthStateChanged(function (user))
 

@@ -43,14 +43,11 @@ export default {
     }
   },
   mounted: function() {
-   
     this.question.options.forEach((element) => {
       this.list.push(element[0])
       this.list.push(element[1])
     })
-  
     this.list = shuffle([].concat(this.list))
-
   },
   methods: {
     onUpdate: function (event) {
@@ -71,10 +68,9 @@ export default {
       store.dispatch('quiz/answer', this.question.questionId)
       const matchBy = []
       for(let i = 0; i < this.question.options.length && is; i++) {
-       
         for(let j = 0; j< this.list.length; j++) {
           matchBy.push([this.list[j], this.list[j+1]])
-          j++ 
+          j++
         }
         const matchFound = this.question.options.findIndex((element) => {
           return this.compare(element, matchBy[i])
@@ -83,29 +79,6 @@ export default {
           is = false
         }
       }
-      
-      /*/*/
-      // reconstruct the object from the dragged list
-      // const remaining = [].concat(this.list)
-      /*
-      do {
-        const builtOptions = []
-        builtOptions.push(remaining.pop())
-        builtOptions.push(remaining.pop())
-
-        if(!this.question.options.findIndex((element) => {
-          const vals = []
-          vals.push(element.text)
-          vals.push(element.match)
-          return this.compare(builtOptions, vals)
-
-        }) > 0) {
-          is = false
-        }
-
-        i++
-      } while (remaining.length > 0 && is && i < this.question.options.length)
-      */
       this.correct = is;
       if(this.correct) {
         store.dispatch('quiz/correctAnswer', this.question.questionId)

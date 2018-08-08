@@ -9,10 +9,9 @@
     </div>
     <h2>Question {{ currentQuestion + 1 }}</h2>
     <div class="" style="font-size: 12px; margin-bottom: 1.1em;">
-        Question {{ currentQuestion + 1 }} of {{ quizData.length }} 
+        Question {{ currentQuestion + 1 }} of {{ quizData.length }}
     </div>
      <div class="questions">
-       
       <transition-group name="fade">
         <div v-for="(question, index) in quizData" :key="question + index" v-show="index === currentQuestion" class="question">
           <div v-if="question.type==='fillIn'">

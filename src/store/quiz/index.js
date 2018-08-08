@@ -12,8 +12,6 @@ const setQuizRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
       resolve()
     }})
   })
-  
-  // unbindFirebaseRef('quizzes')
 })
 
 
@@ -45,9 +43,8 @@ const getters = {
 }
 
 const mutations = {
-  
+
   POPULATE (state) {
-    // state.questions = questions
     // eslint-disable-next-line
     // console.log(state, state.questions)
     state.localQuestions = [].concat(state.questions)
@@ -93,8 +90,6 @@ const mutations = {
     state.complete = false
   },
   SELECT_QUIZ(state, quizId) {
-    //eslint-disable-next-line
-    console.log(quizId)
     state.selectedQuizId = quizId
     this.dispatch('quiz/populate')
   }
@@ -120,24 +115,12 @@ const actions = {
   populate(
     {commit}
   ) {
-    setTimeout(() => {
-      this.dispatch('quiz/setQuizRef', db.ref(`quizQuestions/${state.selectedQuizId}`))
-        .then(() => {
-          commit('POPULATE')
-          commit('LOADED', null, {root: true})
-          commit('SHUFFLE')
-        })
-      // commit('LOADED') /* */
-      /*
-      axios.get('/data/front-end-quiz.json', {
-          responseType: 'json'
-        })
-        .then((response) => {
-          commit('POPULATE', response.data)
-          // commit('SHUFFLE')
-          commit('LOADED')
-        }); */
-    }, 500)
+    this.dispatch('quiz/setQuizRef', db.ref(`quizQuestions/${state.selectedQuizId}`))
+      .then(() => {
+        commit('POPULATE')
+        commit('LOADED', null, {root: true})
+        commit('SHUFFLE')
+      })
   },
   selectQuiz(
     {commit}, quizId
@@ -150,7 +133,7 @@ const state = {
   questions: [],
   localQuestions: [],
   complete: false,
-  selectedQuizId: '' 
+  selectedQuizId: ''
 }
 
 export default {

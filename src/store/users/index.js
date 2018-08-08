@@ -15,7 +15,6 @@ const actions = {
     this.dispatch('setScoresRef', db.ref(`scores/${state.uid}`))
       .then(() => {
         //eslint-disable-next-line
-        console.log('we have settled the scores')
       })
   },
   logout({

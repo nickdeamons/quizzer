@@ -53,7 +53,7 @@ export default {
       } else {
         this.correctChoices.forEach((value) => {
           if(this.selectedChoices.findIndex((choiceValue) => {
-            return value.text == choiceValue 
+            return value.text == choiceValue
           }) == -1) {
             is = false;
           }

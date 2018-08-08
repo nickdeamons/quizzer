@@ -15,8 +15,6 @@ const getters = {
     return state.loaded
   },
   quizzes: (state) => {
-    //eslint-disable-next-line
-    console.log('attemped to get', state.quizzes)
     return state.quizzes
   },
   getQuizById: (state, id) => {
@@ -31,13 +29,9 @@ const mutations = {
     state.loaded = true
   },
   UPDATE_SCORE(state, scoreData) {
-    // state.scores[scoreIndex] = scoreObject
-    //eslint-disable-next-line
-    console.log(scoreData) 
     db.ref(`scores/${state.users.uid}/${scoreData.scoreIndex}`).set(scoreData.data)
   },
   ADD_SCORE(state, score) {
-    // state.scores.push(score)
     db.ref(`scores/${ state.users.uid}`).push(score)
   }
 }
@@ -45,9 +39,7 @@ const mutations = {
 
 const setQuizzesRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
   bindFirebaseRef('quizzes', ref)
-  // unbindFirebaseRef('quizzes')
 })
-
 
 const setScoresRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
   return new Promise((resolve) => {
@@ -55,10 +47,7 @@ const setScoresRef = firebaseAction( ({bindFirebaseRef}, {ref}) => {
       resolve()
     }})
   })
-  // unbindFirebaseRef('quizzes')
 })
-
-
 
 const actions = {
   setQuizzesRef,
@@ -69,15 +58,11 @@ const actions = {
     let updateScoreOfQuiz = state.scores.findIndex((element) => {
       return element.quizId === state.quiz.selectedQuizId
     })
-    
     if(updateScoreOfQuiz >= 0) {
       commit('UPDATE_SCORE', {scoreIndex: state.scores[updateScoreOfQuiz]['.key'], data: scoreObject})
-      // state.scores[updateScoreOfQuiz] = scoreObject
     } else {
       commit('ADD_SCORE', scoreObject)
     }
-    // this.dispatch('setScoresRef', state.scores)
-    // commit('SCORE', scoreObject, )
   }
 }
 

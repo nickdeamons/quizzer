@@ -46,7 +46,7 @@ export default {
       this.answered = true;
       store.dispatch('quiz/answer', this.question.questionId)
       // check all the accepted terms in the dictionary, 0 or > = found in the 'dictionary'
-      is = (this.accepted.findIndex((value) => { 
+      is = (this.accepted.findIndex((value) => {
         // ignoring case, ignoring spaces and punctuation
         return value.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '') == this.guess.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '')
         }) >= 0);
