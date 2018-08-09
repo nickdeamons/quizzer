@@ -26,6 +26,9 @@
           <div v-if="question.type==='trueFalse'">
             <true-false :question="question" :correctAnswer='correctAnswer' />
           </div>
+          <div v-if="question.type==='single'">
+            <single-answer :question="question" :correctAnswer='correctAnswer' />
+          </div>
         </div>
       </transition-group>
      </div>
@@ -45,6 +48,7 @@ import DragAndDrop from './questions/DragAndDrop.vue';
 import TrueFalse from './questions/TrueFalse.vue';
 import Timer from './Timer.vue'
 import JumpLinks from './JumpLinks.vue'
+import SingleAnswer from './questions/SingleAnswer.vue';
 
 
 export default {
@@ -59,6 +63,7 @@ export default {
     'multiple-choice': MultipleChoice,
     'drag-and-drop': DragAndDrop,
     'true-false': TrueFalse,
+    'single-answer': SingleAnswer,
     'timer': Timer,
     'jump-links': JumpLinks,
   },

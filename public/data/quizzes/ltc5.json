@@ -11,7 +11,7 @@
     "response": "Now that you know these things, you will be blessed if you do them."
   },
   {
-    "type": "multi",
+    "type": "single",
     "body": "Select the verse best describing <i>apologetics</i>",
     "options": [{
         "text": "1 Pet 1:15",
@@ -55,7 +55,7 @@
     "response": "Since, then, we know what it is to fear the Lord, we try to persuade men."
   },
   {
-    "type": "multi",
+    "type": "single",
     "body": "It was Paul’s custom to go the Synagogue, reason from the Scriptures, and persuade men that Christ had to suffer and rise on the third day.",
     "options": [{
         "text": "Acts 17:2-4",
@@ -73,7 +73,7 @@
     "response": "Acts 17:2-4"
   },
   {
-    "type": "multi",
+    "type": "single",
     "body": "Paul speaks in Athens at the Areopagus. This is an example of a contextualized apologetics approach.",
     "options": [{
         "text": "Acts 17:2-4",
@@ -97,7 +97,7 @@
     "response": "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ."
   },
   {
-    "type": "multi",
+    "type": "single",
     "body": "Paul gives an example of evidential apologetics by arguing that Jesus’ literal bodily resurrection was witnessed by many.",
     "options": [{
         "text": "1 Cor 15:1-7",
@@ -139,7 +139,7 @@
     "response": "The heart is deceitful above all things and beyond cure. Who can understand it?"
   },
   {
-    "type": "multi",
+    "type": "single",
     "body": "The rapid appearance around 530 million years ago of most phyla on earth during a very short period of 5-10 million years.",
     "options": [{
         "text": "Cambrian Explosion",
@@ -161,7 +161,7 @@
     "response": "Cambrian Explosion"
   },
   {
-    "type": "multi",
+    "type": "single",
     "body": "This view holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them.",
     "options": [{
         "text": "Cambrian Explosion",
@@ -183,7 +183,7 @@
     "response": "Progressive Creationism"
   },
   {
-    "type": "multi",
+    "type": "single",
     "body": "A theory that the entire world was created in six days just as it is today, less than ten thousand years ago.",
     "options": [{
         "text": "Inorganic Evolution/Abiogenesis",
@@ -233,7 +233,7 @@
     "response": "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."
   },
   {
-    "type": "multi",
+    "type": "single",
     "body": "Loving God and loving one another are the most important commandments",
     "options": [{
         "text": "Matthew 22:37-40",
@@ -269,7 +269,7 @@
     "response": "Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you."
   },
   {
-    "type": "multi",
+    "type": "single",
     "body": "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
     "options": [{
         "text": "Eph 4:32",
@@ -325,7 +325,7 @@
     "response":"Nirvana"
   },
   {
-    "type":"multi",
+    "type":"single",
     "body":"The belief that every species has arisen purely by evolution, but that evolution was guided by or enabled by God.",
     "options":[
       {"text":"Theistic Evolution", "correct": true},
