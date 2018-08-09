@@ -1,813 +1,692 @@
 {
-  "quizzes": [{
-      "id": "q1",
-      "title": "LTC 5",
-      "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
+  "quizQuestions" : {
+    "q0" : [ {
+      "body" : "______ should be lower case and dash-delimited.",
+      "dictionary" : [ "CSS Selectors", "css classes", "classes" ],
+      "response" : "The answer is CSS Selectors aka classes.",
+      "type" : "fillIn"
+    }, {
+      "body" : "The array method ______, <em>.method(param)</em>, called by an empty array <code>[]</code> with an existing array as its only parameter, is a quick way to make a NEW INSTANCE of an array that its copy.",
+      "dictionary" : [ "concat", "[].concat()", "concat", "concat()" ],
+      "response" : "concat(), ex: [].concat()",
+      "type" : "fillIn"
+    }, {
+      "body" : "Select all the code standards that apply for Dynamit Front-End",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Write JavaScript in modules."
+      }, {
+        "correct" : false,
+        "text" : "Write IE10 compatible JavaScript when possible."
+      }, {
+        "correct" : false,
+        "text" : "All SPAs are to be done in React."
+      } ],
+      "response" : "<strong>Write JavaScript in modules</strong>.",
+      "type" : "multi"
+    }, {
+      "body" : "In ES6, an arrow function _____________ and ____________",
+      "options" : [ {
+        "correct" : false,
+        "text" : "has its own <code>this</code>"
+      }, {
+        "correct" : true,
+        "text" : "may have a concise body instead of a block body"
+      }, {
+        "correct" : true,
+        "text" : "is a <code>function</code>"
+      } ],
+      "type" : "multi"
+    }, {
+      "answer" : false,
+      "body" : "For accessibility, use <code>&lt;meta name='viewport' content='user-scalable=no' /&gt;</code>. Users must NOT be able to zoom.",
+      "response" : "The answer is false.",
+      "type" : "trueFalse"
+    }, {
+      "answer" : false,
+      "body" : "BEM stands for Block-Element-Modifier and is used as a baseline for markup and Javascript",
+      "response" : "The answer is true. BEM is a guideline for HTML markup and CSS",
+      "type" : "trueFalse"
+    }, {
+      "body" : "_________ bundles and optimizes JavaScript into chunks.",
+      "dictionary" : [ "Webpack" ],
+      "response" : "The answer is <em>Webpack</em>",
+      "type" : "fillIn"
+    }, {
+      "answer" : false,
+      "body" : "Arrow functions are supported in IE Edge and Safari 9",
+      "response" : "The answer is false. Arrow functions have support in Safari 11.1",
+      "type" : "trueFalse"
+    }, {
+      "body" : "Select all the code standards that apply for Dynamit Front-End",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Do not apply classes to &lt;strong&gt;"
+      }, {
+        "correct" : true,
+        "text" : "In SASS, add empty lines between nested declaration blocks."
+      }, {
+        "correct" : true,
+        "text" : "You can use React, Vue, or Angular on a per-project basis."
+      } ],
+      "response" : "All of these are true!",
+      "type" : "multi"
+    }, {
+      "body" : "Match these accessibility guidelines to their A-Level",
+      "options" : [ [ "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.", "Level A" ], [ "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.", "Level AAA" ], [ "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.", "Level AA" ] ],
+      "type" : "drag"
+    }, {
+      "body" : "A _________ allows team members to review your code before it is merged to a branch.",
+      "dictionary" : [ "Git pull request", "pull request" ],
+      "response" : "Git pull request/pull request.",
+      "type" : "fillIn"
     },
     {
-      "id": "q0",
-      "title": "Dynamit Front End Quiz",
-      "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
-    },
-    {
-      "id": "q2",
-      "title": "Christian Ministry 1 - Memory Verses",
-      "author": "C8C2KemQjfN7ULZRVLhw8tTqg3b2"
-    }
-  ],
-  "quizQuestions": {
-    "q2": [{
-        "type": "multi",
-        "body": "What passage teaches that God's election is based on God's foreknowledge (evidently of who chooses to believe in Christ)? ",
-        "options": [{
-            "text": "Phil 2:6,7",
-            "correct": false
-          },
-          {
-            "text": "1 Peter 1b-2",
-            "correct": true
-          },
-          {
-            "text": "Lev 16",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "type": "multi",
-        "body": "The verse that proclaims, 'Christians will never be condemned by God.'",
-        "options": [{
-            "text": "John 10:27-30",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "Rom 8:1"
-          },
-          {
-            "text": "Phil 2:6,7",
-            "correct": false
-          },
-          {
-            "text": "1 Cor 15",
-            "correct": false
-          }
-        ]
-      },
-
-      {
-        "type": "multi",
-        "body": "This memory verse teaches that: Jesus has been resurrected, and his resurrection proves he is the Messiah and assures our salvation.",
-        "options": [{
-            "text": "Col 2:9",
-            "correct": false
-          },
-          {
-            "text": "1 Peter 1b-2",
-            "correct": false
-          },
-          {
-            "text": "Phil 2:6,7",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "1 Cor 15:1-23"
-          }
-        ]
-      },
-
-
-      {
-        "type": "multi",
-        "body": "This is a verse that teaches that God exists in more than 1 person.",
-        "options": [{
-            "correct": true,
-            "text": "Gen 1:26,27"
-          },
-          {
-            "text": "Exodus 34:6-8",
-            "correct": false
-          },
-          {
-            "text": "Phil 2:6,7",
-            "correct": false
-          },
-          {
-            "text": "Lev 16",
-            "correct": false
-          }
-        ]
-      },
-
-      {
-        "type": "multi",
-        "body": "Which of these is the best reference and quote for Jesus' qualities in the Hypostatic Union?",
-        "options": [{
-            "text": "Phil 2:6,7 `For who, being completely God, did not consider equality with God something to be used to his own advantage; rather he made himself everything by taking the nature of God, spiritually like a person`",
-            "correct": true
-          },
-          {
-            "text": "Col 2:9 `For in Christ the fullness of deity dwells in bodily form.`",
-            "correct": false
-          },
-          {
-            "text": "Col 2:9 `For in Christ, deity seemed like a man.`",
-            "correct": false
-          },
-          {
-            "text": "Phil 2:6,7 `For who, being in very nature God, did not consider equality with God something to be used to his own advantage; rather he made himself nothing by taking the very nature of a servant, being made in human likeness`",
-            "correct": false
-          }
-        ]
-      },
-
-
-      {
-        "type": "multi",
-        "body": "Which of these is the best reference and quote for how 'Jesus laid aside his divine privileges (including the use of certain divine attributes) at the Incarnation:",
-        "options": [{
-            "text": "Phil 2:6,7 'For who,being completely God, did not consider equality with God something to be used to his own advantage;rather he made himself everything by taking the nature of God, spiritually like a person ",
-            "correct": false
-          },
-          {
-            "text": "Col 2:9 'For in Christ the fullness of diety dwells in bodily form.'",
-            "correct": false
-          },
-          {
-            "text": "Col 2:9 'For in Christ, deity appeared like a man.",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "Phil 2:6,7 'For who, being in very nature God, did not consider equality with God something to be used to his own advange;rather he made himself nothing by taking the very nature of a servant, being made in human likeness "
-          }
-        ]
-      },
-      {
-        "type": "multi",
-        "body": "This memory verse teaches Federal Headship: the choice of the head affects all of his descendants.  Adam &amp; Jesus.",
-        "options": [{
-            "text": "1 Cor 15:1-23",
-            "correct": true
-          },
-          {
-            "text": "Rom 5:12-19",
-            "correct": false
-          },
-          {
-            "text": "Rom 3:9-20",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "type": "multi",
-        "body": "What memory verse best fits the statement: 'Total depravity describes the effects of the Fall.'",
-        "options": [{
-            "text": "Rom 3:23,24",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "Rom 3:9-20"
-          },
-          {
-            "text": "Rom 5:12-19",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "type": "multi",
-        "body": "This memory verse teaches that the Day of Atonment is a clear example of subsitutionary atonement for that nation of Israel:",
-        "options": [{
-            "text": "Isaiah 53",
-            "correct": false
-          },
-          {
-            "text": "Exodus 34:6-8",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "Lev 16"
-          }
-        ]
-      },
-      {
-        "type": "multi",
-        "body": "This passage makes it clear that the Old Testament sacrifical system must be fulfilled by a person; the Servant of the Lord:",
-        "options": [{
-            "text": "Lev 16",
-            "correct": false
-          },
-          {
-            "text": "1 Cor 15:1-23",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "Isa 53"
-          },
-          {
-            "text": "Rom 3:23,24",
-            "correct": false
-          }
-        ]
-      },
-
-      {
-        "type": "multi",
-        "body": "This memory verse teaches that, 'All humans fall justly under God's condemnation because of their sins, but all humans are acceptable to God if they receive JEsus' atoning death for their sins:'",
-        "options": [{
-            "text": "Phil 2:6,7",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "Rom 3:23,24"
-          },
-          {
-            "text": "1 John 2:15,16",
-            "correct": false
-          }
-        ]
-      },
-
-      {
-        "type": "multi",
-        "body": "This verse (NIV), 'For all have sinned and fallen short of the glory of God and all are justified freely by his grace through the redemption that came by Christ Jesus.' is:",
-        "options": [{
-            "correct": true,
-            "text": "Rom 3:23,24"
-          },
-          {
-            "text": "Phil 2:6,7",
-            "correct": false
-          },
-          {
-            "text": "1 Peter 1b,2",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "type": "multi",
-        "body": "This memory verse, 'And do not grieve the Holy Spirit of God, with whom you were sealed for the day of redemption.' is:",
-        "options": [{
-            "text": "Rom 8:1",
-            "correct": false
-          },
-          {
-            "text": "John 10:27-30",
-            "correct": false
-          },
-          {
-            "text": " 1 John 2:15,16",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "Eph 4:30"
-          }
-        ]
-      },
-
-      {
-        "type": "multi",
-        "body": "This memory verse teaches that Christians are sealed for safe passage to Heaven:",
-        "options": [{
-            "text": "Rom 8:1",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "Eph 4:30"
-          }
-        ]
-      },
-
-      {
-        "type": "multi",
-        "body": "This memory verse teaches that Jesus will not allow anyone to snatch believes from His hand:",
-        "options": [{
-            "text": "Rom 8:1",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "John 10:27,30"
-          },
-          {
-            "text": "Eph 4:30",
-            "correct": false
-          }
-        ]
-      },
-
-
-      {
-        "type": "multi",
-        "body": "This memory verse teaches that Jesus Christ died for the sins of the whole world, not just believers.",
-        "options": [{
-            "correct": true,
-            "text": "1 John 2:2"
-          },
-          {
-            "text": "1 Peter 1b-2",
-            "correct": false
-          },
-          {
-            "text": "2 Peter 3:9",
-            "correct": false
-          }
-        ]
-      },
-
-      {
-        "type": "multi",
-        "body": "This memory verse, 'To God’s elect, exiles scattered throughout the provinces of Pontus, Galatia, Cappadocia, Asia and Bithynia, who have been chosen according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, to be obedient to Jesus Christ and sprinkled with his blood: Grace and peace be yours in abundance.' is:",
-        "options": [{
-            "text": "1 John 1:2",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "1 Peter 1b-2"
-          }
-        ]
-      },
-
-      {
-        "type": "multi",
-        "body": "This memory verse teaches that God's will is for all people to be saved.",
-        "options": [{
-            "text": "1 John 2:2",
-            "correct": false
-          },
-          {
-            "text": "1 Peter 1b-2",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "2 Peter 3:9"
-          }
-        ]
-      },
-
-      {
-        "type": "multi",
-        "body": "This memory verse, 'The Lord is not slow in keeping his promise, as some understand slowness.Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.' is:",
-        "options": [{
-            "text": "1 John 2:2",
-            "correct": false
-          },
-          {
-            "text": "2 Thess 1b-2",
-            "correct": false
-          },
-          {
-            "correct": true,
-            "text": "2 Peter 3:9"
-          }
-        ]
-      }
-    ],
-    "q0": [{
-        "type": "fillIn",
-        "body": "______ should be lower case and dash-delimited.",
-        "dictionary": ["CSS Selectors", "css classes", "classes"],
-        "response": "The answer is CSS Selectors aka classes."
-      },
-      {
-        "type": "fillIn",
-        "body": "The array method ______, <em>.method(param)</em>, called by an empty array <code>[]</code> with an existing array as its only parameter, is a quick way to make a NEW INSTANCE of an array that its copy.",
-        "dictionary": ["concat", "[].concat()", "concat", "concat()"],
-        "response": "concat(), ex: [].concat()"
-      },
-      {
-        "type": "multi",
-        "body": "Select all the code standards that apply for Dynamit Front-End",
-        "options": [{
-            "text": "Write JavaScript in modules.",
-            "correct": true
-          },
-          {
-            "text": "Write IE10 compatible JavaScript when possible.",
-            "correct": false
-          },
-          {
-            "text": "All SPAs are to be done in React.",
-            "correct": false
-          }
-        ],
-        "response": "<strong>Write JavaScript in modules</strong>."
-      },
-      {
-        "type": "multi",
-        "body": "In ES6, an arrow function _____________ and ____________",
-        "options": [{
-            "text": "has its own <code>this</code>",
-            "correct": false
-          },
-          {
-            "text": "may have a concise body instead of a block body",
-            "correct": true
-          },
-          {
-            "text": "is a <code>function</code>",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "type": "trueFalse",
-        "body": "For accessibility, use <code>&lt;meta name='viewport' content='user-scalable=no' /&gt;</code>. Users must NOT be able to zoom.",
-        "answer": false,
-        "response": "The answer is false."
-      },
-      {
-        "type": "trueFalse",
-        "body": "BEM stands for Block-Element-Modifier and is used as a baseline for markup and Javascript",
-        "answer": false,
-        "response": "The answer is true. BEM is a guideline for HTML markup and CSS"
-      },
-      {
-        "type": "fillIn",
-        "body": "_________ bundles and optimizes JavaScript into chunks.",
-        "dictionary": ["Webpack"],
-        "response": "The answer is <em>Webpack</em>"
-      },
-      {
-        "type": "trueFalse",
-        "body": "Arrow functions are supported in IE Edge and Safari 9",
-        "answer": false,
-        "response": "The answer is false. Arrow functions have support in Safari 11.1"
-      },
-      {
-        "type": "multi",
-        "body": "Select all the code standards that apply for Dynamit Front-End",
-        "response": "All of these are true!",
-        "options": [{
-            "text": "Do not apply classes to &lt;strong&gt;",
-            "correct": true
-          },
-          {
-            "text": "In SASS, add empty lines between nested declaration blocks.",
-            "correct": true
-          },
-          {
-            "text": "You can use React, Vue, or Angular on a per-project basis.",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "type": "sort",
-        "body": "Match these accessibility guidelines to their A-Level",
-        "options": [
-          ["Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.", "Level A"],
-          ["All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.", "Level AAA"],
-          ["If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.", "Level AA"]
-        ]
-      },
-      {
-        "type": "fillIn",
-        "body": "A _________ allows team members to review your code before it is merged to a branch.",
-        "dictionary": ["Git pull request", "pull request"],
-        "response": "Git pull request/pull request."
-      }
-    ],
-    "q1": [{
-        "type": "fillIn",
-        "body": "Since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that men are without excuse.",
-        "dictionary": ["Romans 1:19-20", "Rom 1:19-20"],
-        "response": "Romans 1:19-20"
-      },
-      {
-        "type": "fillIn",
-        "body": "John 13:17",
-        "dictionary": ["Now that you know these things, you will be blessed if you do them."],
-        "response": "Now that you know these things, you will be blessed if you do them."
-      },
-      {
-        "type": "multi",
-        "body": "Select the verse best describing <i>apologetics</i>",
-        "options": [{
-            "text": "1 Pet 1:15",
-            "correct": false
-          },
-          {
-            "text": "1 Pet 3:15",
-            "correct": true
-          }
-        ],
-        "response": "1 Pet 3:15"
-      },
-      {
-        "type": "sort",
-        "body": "Match the verses to their content.",
-        "options": [
-          [
-            "Romans 12:15", "Rejoice with those who rejoice, and weep with those who weep."
-          ],
-          [
-            "Romans 15:14",
-            "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."
-          ],
-          [
-            "Romans 12:2",
-            "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what the will of God is, that which is good and acceptable and perfect."
-          ]
-        ],
-        "response": "Romans 12:15, Romans 15:14, Romans 12:2"
-      },
-      {
-        "type": "fillIn",
-        "body": "Hebrews 11:3",
-        "dictionary": ["By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible."],
-        "response": "By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible."
-      },
-      {
-        "type": "fillIn",
-        "body": "2 Cor 5:11a",
-        "dictionary": ["Since, then, we know what it is to fear the Lord, we try to persuade men."],
-        "response": "Since, then, we know what it is to fear the Lord, we try to persuade men."
-      },
-      {
-        "type": "multi",
-        "body": "It was Paul’s custom to go the Synagogue, reason from the Scriptures, and persuade men that Christ had to suffer and rise on the third day.",
-        "options": [{
-            "text": "Acts 17:2-4",
-            "correct": true
-          },
-          {
-            "text": "Acts 17:12-14",
-            "correct": false
-          },
-          {
-            "text": "Acts 16:5-9",
-            "correct": false
-          }
-        ],
-        "response": "Acts 17:2-4"
-      },
-      {
-        "type": "multi",
-        "body": "Paul speaks in Athens at the Areopagus. This is an example of a contextualized apologetics approach.",
-        "options": [{
-            "text": "Acts 17:2-4",
-            "correct": false
-          },
-          {
-            "text": "Acts 17:22-31",
-            "correct": true
-          },
-          {
-            "text": "Acts 16:5-9",
-            "correct": false
-          }
-        ],
-        "response": "Acts 17:22-31"
-      },
-      {
-        "type": "fillIn",
-        "body": "2 Corinthians 10:5",
-        "dictionary": ["We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ."],
-        "response": "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ."
-      },
-      {
-        "type": "multi",
-        "body": "Paul gives an example of evidential apologetics by arguing that Jesus’ literal bodily resurrection was witnessed by many.",
-        "options": [{
-            "text": "1 Cor 15:1-7",
-            "correct": true
-          },
-          {
-            "text": "2 Cor 10:5",
-            "correct": false
-          },
-          {
-            "text": "Romans 15:14",
-            "correct": false
-          }
-        ],
-        "response": "1 Cor 15:1-7"
-      },
-      {
-        "type": "fillIn",
-        "body": "This verse teaches that God will lead willing people.",
-        "dictionary": ["Ps 32:8-9", "Ps 32:8,9"],
-        "response": "Ps 32:8-9"
-      },
-      {
-        "type": "fillIn",
-        "body": "Paul appeals to spiritual expediency",
-        "dictionary": ["1 Cor 16", "1 Corinthians 16"],
-        "response": "1 Cor 16"
-      },
-      {
-        "type": "fillIn",
-        "body": "Speak words that edify&hellip; Be kind to one another, tender-hearted",
-        "dictionary": ["Eph 4:29,32", "Ephesians 4:29,32"],
-        "response": "Eph 4:29,32"
-      },
-      {
-        "type": "fillIn",
-        "body": "<strong>Jeremiah 17:9</strong>",
-        "dictionary": ["The heart is deceitful above all things and beyond cure. Who can understand it?"],
-        "response": "The heart is deceitful above all things and beyond cure. Who can understand it?"
-      },
-      {
-        "type": "multi",
-        "body": "The rapid appearance around 530 million years ago of most phyla on earth during a very short period of 5-10 million years.",
-        "options": [{
-            "text": "Cambrian Explosion",
-            "correct": true
-          },
-          {
-            "text": "Mature Creationism",
-            "correct": false
-          },
-          {
-            "text": "Theistic Evolution",
-            "correct": false
-          },
-          {
-            "text": "Progressive Creationism",
-            "correct": false
-          }
-        ],
-        "response": "Cambrian Explosion"
-      },
-      {
-        "type": "multi",
-        "body": "This view holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them.",
-        "options": [{
-            "text": "Cambrian Explosion",
-            "correct": false
-          },
-          {
-            "text": "Mature Creationism",
-            "correct": false
-          },
-          {
-            "text": "Inorganic Evolution/Abiogenesis",
-            "correct": false
-          },
-          {
-            "text": "Progressive Creationism",
-            "correct": true
-          }
-        ],
-        "response": "Progressive Creationism"
-      },
-      {
-        "type": "multi",
-        "body": "A theory that the entire world was created in six days just as it is today, less than ten thousand years ago.",
-        "options": [{
-            "text": "Inorganic Evolution/Abiogenesis",
-            "correct": false
-          },
-          {
-            "text": "Mature Creationism",
-            "correct": true
-          },
-          {
-            "text": "Theistic Evolution",
-            "correct": false
-          },
-          {
-            "text": "Progressive Creationism",
-            "correct": false
-          }
-        ],
-        "response": "Mature Creationism"
-      },
-      {
-        "type": "fillIn",
-        "body": "This form of spirituality is a loosely based movement that includes numerous groups, churches, and philosophies that share common foundational beliefs. It can be traced back to several unconventional religious ideologies including Theosophy (a pantheistic form of ancient Gnosticism) as well as the teaching of Phineas P. Quimby, a psychic healer who greatly influenced a number of mind-science cults (including Christian Science).",
-        "dictionary": ["New Age"],
-        "response": "New Age"
-      },
-      {
-        "type": "fillIn",
-        "body": "Romans 15:14",
-        "dictionary": ["I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."],
-        "response": "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."
-      },
-      {
-        "type": "fillIn",
-        "body": "Colossians 3:16",
-        "dictionary": [
-          "Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God."
-        ],
-        "response": "Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God."
-      },
-      {
-        "type": "fillIn",
-        "body": "Mark 10:45",
-        "dictionary": [
-          "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."
-        ],
-        "response": "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."
-      },
-      {
-        "type": "multi",
-        "body": "Loving God and loving one another are the most important commandments",
-        "options": [{
-            "text": "Matthew 22:37-40",
-            "correct": true
-          },
-          {
-            "text": "Mark 10:45",
-            "correct": false
-          },
-          {
-            "text": "Matthew 5:46",
-            "correct": false
-          }
-        ],
-        "response": "Matthew 22:37-40"
-      },
-      {
-        "type": "fillIn",
-        "body": "John 15:13",
-        "dictionary": ["Greater love has no one than this, that he lay down his life for his friends."],
-        "response": "Greater love has no one than this, that he lay down his life for his friends."
-      },
-      {
-        "type": "fillIn",
-        "body": "1 Corinthians 13:5",
-        "dictionary": ["It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs."],
-        "response": "It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. "
-      },
-      {
-        "type": "fillIn",
-        "body": "Colossians 3:13",
-        "dictionary": ["Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you."],
-        "response": "Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you."
-      },
-      {
-        "type": "multi",
-        "body": "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
-        "options": [{
-            "text": "Eph 4:32",
-            "correct": true
-          },
-          {
-            "text": "Colossians 3:13",
-            "correct": false
-          }
-        ],
-        "response": "Eph 4:32"
-      },
-      {
-        "type": "fillIn",
-        "body": "Galatians 6:1",
-        "dictionary": ["Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted."],
-        "response": "Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted."
-      },
-      {
-        "type": "fillIn",
-        "body": "__________ __________ stresses rational arguments for the existence of God and uses evidence to substantiate biblical claims and miracles. Arguments such as the cosmological, teleological, and ontological arguments are types of ____________ _____________.",
-        "dictionary": [
-          "Classical Apologetics"
-        ],
-        "response": "Classical Apologetics"
-      },
-      {
-        "type": "fillIn",
-        "body": "______________________  refers to how much weight of proof a particular debater must bear. As Christian apologists, we argue that we have no more burden of proof than any other worldview.",
-        "dictionary": ["Burden of Proof"],
-        "response": "Burden of Proof"
-      },
-      {
-        "type": "sort",
-        "body": "Drag the term to its definition.",
-        "options": [
-          ["Punctuated Equilibrium",
-            "is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur."
-          ],
-          [
-            "Inorganic Evolution/Abiogenesis", "Refers to the change from non-living chemical compounds to the first living organism."
-          ],
-          ["Progressive Creationism",
-            "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them."
-          ]
-        ],
-        "response": ""
-      }
-    ]
+      "body" : "Put the following in their order that the defined styles will appear, their ignoring the order in the sass, as shown in a console to the last <code>&lt;p /&gt;</code> in a  <code>&lt;div /&gt;</code>",
+      "options" : [ "p:last-child", "p.apply", ".apply", "p" ],
+      "response" : "p, .apply, p.apply, p:last-child<br /><br /><img src='https://firebasestorage.googleapis.com/v0/b/intense-heat-3679.appspot.com/o/styles-applied.png?alt=media&token=6859e67d-0319-41bf-80b7-974abf6c9dc2' />",
+      "type" : "sort"
+    } ],
+    "q1" : [ {
+      "body" : "Since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that men are without excuse.",
+      "dictionary" : [ "Romans 1:19-20", "Rom 1:19-20" ],
+      "response" : "Romans 1:19-20",
+      "type" : "fillIn"
+    }, {
+      "body" : "John 13:17",
+      "dictionary" : [ "Now that you know these things, you will be blessed if you do them." ],
+      "response" : "Now that you know these things, you will be blessed if you do them.",
+      "type" : "fillIn"
+    }, {
+      "body" : "Select the verse best describing <i>apologetics</i>",
+      "options" : [ {
+        "correct" : false,
+        "text" : "1 Pet 1:15"
+      }, {
+        "correct" : true,
+        "text" : "1 Pet 3:15"
+      } ],
+      "response" : "1 Pet 3:15",
+      "type" : "single"
+    }, {
+      "body" : "Match the verses to their content.",
+      "options" : [ [ "Romans 12:15", "Rejoice with those who rejoice, and weep with those who weep." ], [ "Romans 15:14", "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another." ], [ "Romans 12:2", "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what the will of God is, that which is good and acceptable and perfect." ] ],
+      "response" : "Romans 12:15, Romans 15:14, Romans 12:2",
+      "type" : "drag"
+    }, {
+      "body" : "Hebrews 11:3",
+      "dictionary" : [ "By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible." ],
+      "response" : "By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible.",
+      "type" : "fillIn"
+    }, {
+      "body" : "2 Cor 5:11a",
+      "dictionary" : [ "Since, then, we know what it is to fear the Lord, we try to persuade men." ],
+      "response" : "Since, then, we know what it is to fear the Lord, we try to persuade men.",
+      "type" : "fillIn"
+    }, {
+      "body" : "It was Paul’s custom to go the Synagogue, reason from the Scriptures, and persuade men that Christ had to suffer and rise on the third day.",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Acts 17:2-4"
+      }, {
+        "correct" : false,
+        "text" : "Acts 17:12-14"
+      }, {
+        "correct" : false,
+        "text" : "Acts 16:5-9"
+      } ],
+      "response" : "Acts 17:2-4",
+      "type" : "single"
+    }, {
+      "body" : "Paul speaks in Athens at the Areopagus. This is an example of a contextualized apologetics approach.",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Acts 17:2-4"
+      }, {
+        "correct" : true,
+        "text" : "Acts 17:22-31"
+      }, {
+        "correct" : false,
+        "text" : "Acts 16:5-9"
+      } ],
+      "response" : "Acts 17:22-31",
+      "type" : "single"
+    }, {
+      "body" : "2 Corinthians 10:5",
+      "dictionary" : [ "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ." ],
+      "response" : "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ.",
+      "type" : "fillIn"
+    }, {
+      "body" : "Paul gives an example of evidential apologetics by arguing that Jesus’ literal bodily resurrection was witnessed by many.",
+      "options" : [ {
+        "correct" : true,
+        "text" : "1 Cor 15:1-7"
+      }, {
+        "correct" : false,
+        "text" : "2 Cor 10:5"
+      }, {
+        "correct" : false,
+        "text" : "Romans 15:14"
+      } ],
+      "response" : "1 Cor 15:1-7",
+      "type" : "single"
+    }, {
+      "body" : "This verse teaches that God will lead willing people.",
+      "dictionary" : [ "Ps 32:8-9", "Ps 32:8,9" ],
+      "response" : "Ps 32:8-9",
+      "type" : "fillIn"
+    }, {
+      "body" : "Paul appeals to spiritual expediency",
+      "dictionary" : [ "1 Cor 16", "1 Corinthians 16" ],
+      "response" : "1 Cor 16",
+      "type" : "fillIn"
+    }, {
+      "body" : "Speak words that edify&hellip; Be kind to one another, tender-hearted",
+      "dictionary" : [ "Eph 4:29,32", "Ephesians 4:29,32" ],
+      "response" : "Eph 4:29,32",
+      "type" : "fillIn"
+    }, {
+      "body" : "<strong>Jeremiah 17:9</strong>",
+      "dictionary" : [ "The heart is deceitful above all things and beyond cure. Who can understand it?" ],
+      "response" : "The heart is deceitful above all things and beyond cure. Who can understand it?",
+      "type" : "fillIn"
+    }, {
+      "body" : "The rapid appearance around 530 million years ago of most phyla on earth during a very short period of 5-10 million years.",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Cambrian Explosion"
+      }, {
+        "correct" : false,
+        "text" : "Mature Creationism"
+      }, {
+        "correct" : false,
+        "text" : "Theistic Evolution"
+      }, {
+        "correct" : false,
+        "text" : "Progressive Creationism"
+      } ],
+      "response" : "Cambrian Explosion",
+      "type" : "single"
+    }, {
+      "body" : "This view holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them.",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Cambrian Explosion"
+      }, {
+        "correct" : false,
+        "text" : "Mature Creationism"
+      }, {
+        "correct" : false,
+        "text" : "Inorganic Evolution/Abiogenesis"
+      }, {
+        "correct" : true,
+        "text" : "Progressive Creationism"
+      } ],
+      "response" : "Progressive Creationism",
+      "type" : "single"
+    }, {
+      "body" : "A theory that the entire world was created in six days just as it is today, less than ten thousand years ago.",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Inorganic Evolution/Abiogenesis"
+      }, {
+        "correct" : true,
+        "text" : "Mature Creationism"
+      }, {
+        "correct" : false,
+        "text" : "Theistic Evolution"
+      }, {
+        "correct" : false,
+        "text" : "Progressive Creationism"
+      } ],
+      "response" : "Mature Creationism",
+      "type" : "single"
+    }, {
+      "body" : "This form of spirituality is a loosely based movement that includes numerous groups, churches, and philosophies that share common foundational beliefs. It can be traced back to several unconventional religious ideologies including Theosophy (a pantheistic form of ancient Gnosticism) as well as the teaching of Phineas P. Quimby, a psychic healer who greatly influenced a number of mind-science cults (including Christian Science).",
+      "dictionary" : [ "New Age" ],
+      "response" : "New Age",
+      "type" : "fillIn"
+    }, {
+      "body" : "Romans 15:14",
+      "dictionary" : [ "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another." ],
+      "response" : "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another.",
+      "type" : "fillIn"
+    }, {
+      "body" : "Colossians 3:16",
+      "dictionary" : [ "Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God." ],
+      "response" : "Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God.",
+      "type" : "fillIn"
+    }, {
+      "body" : "Mark 10:45",
+      "dictionary" : [ "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many." ],
+      "response" : "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many.",
+      "type" : "fillIn"
+    }, {
+      "body" : "Loving God and loving one another are the most important commandments",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Matthew 22:37-40"
+      }, {
+        "correct" : false,
+        "text" : "Mark 10:45"
+      }, {
+        "correct" : false,
+        "text" : "Matthew 5:46"
+      } ],
+      "response" : "Matthew 22:37-40",
+      "type" : "single"
+    }, {
+      "body" : "John 15:13",
+      "dictionary" : [ "Greater love has no one than this, that he lay down his life for his friends." ],
+      "response" : "Greater love has no one than this, that he lay down his life for his friends.",
+      "type" : "fillIn"
+    }, {
+      "body" : "1 Corinthians 13:5",
+      "dictionary" : [ "It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs." ],
+      "response" : "It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. ",
+      "type" : "fillIn"
+    }, {
+      "body" : "Colossians 3:13",
+      "dictionary" : [ "Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you." ],
+      "response" : "Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you.",
+      "type" : "fillIn"
+    }, {
+      "body" : "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Eph 4:32"
+      }, {
+        "correct" : false,
+        "text" : "Colossians 3:13"
+      } ],
+      "response" : "Eph 4:32",
+      "type" : "single"
+    }, {
+      "body" : "Galatians 6:1",
+      "dictionary" : [ "Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted." ],
+      "response" : "Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted.",
+      "type" : "fillIn"
+    }, {
+      "body" : "____________________ stresses rational arguments for the existence of God and uses evidence to substantiate biblical claims and miracles. Arguments such as the cosmological, teleological, and ontological arguments are types of this.",
+      "dictionary" : [ "Classical Apologetics" ],
+      "response" : "Classical Apologetics",
+      "type" : "fillIn"
+    }, {
+      "body" : "______________________  refers to how much weight of proof a particular debater must bear. As Christian apologists, we argue that we have no more burden of proof than any other worldview.",
+      "dictionary" : [ "Burden of Proof" ],
+      "response" : "Burden of Proof",
+      "type" : "fillIn"
+    }, {
+      "body" : "Drag the term to its definition.",
+      "options" : [ [ "Punctuated Equilibrium", "is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur." ], [ "Inorganic Evolution/Abiogenesis", "Refers to the change from non-living chemical compounds to the first living organism." ], [ "Progressive Creationism", "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them." ] ],
+      "response" : "",
+      "type" : "drag"
+    }, {
+      "body" : "The word _____________ literally means to 'blow out' in the sense of snuffing a candle. In Buddhist teaching this is the state of being free from both suffering and they cycle of rebirth. Although the experience cannot be described, the basic concept of it is that self is extinguished.",
+      "dictionary" : [ "Nirvana" ],
+      "response" : "Nirvana",
+      "type" : "fillIn"
+    }, {
+      "body" : "The belief that every species has arisen purely by evolution, but that evolution was guided by or enabled by God.",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Theistic Evolution"
+      }, {
+        "correct" : false,
+        "text" : "Progressive Creationism"
+      }, {
+        "correct" : false,
+        "text" : "Mature Creationism"
+      } ],
+      "type" : "single"
+    }, {
+      "body" : "__________ __________, who came to be called Buddha (“enlightened one”), was the founder the Buddhist religion. He was born in north-east India in 560 BC and died at the age of eighty.",
+      "dictionary" : [ "Siddhartha Gautama" ],
+      "response" : "Siddhartha Gautama",
+      "type" : "fillIn"
+    }, {
+      "body" : "The ________ (‘Song of the Lord’) has sometimes been called the ‘the bible of Hinduism’ because of its popular appeal. It features Krisha.",
+      "dictionary" : [ "Bhagavad Gita" ],
+      "type" : "fillIn"
+    }, {
+      "body" : "This word literally means ‘retribution.’ It indicates the consequences of one’s actions in one life, which are paid back in the next life.",
+      "dictionary" : [ "Karma" ],
+      "response" : "Karma",
+      "type" : "fillIn"
+    }, {
+      "body" : "________ is the view that everything is part of an all-encompassing immanent God.",
+      "dictionary" : [ "Pantheism" ],
+      "response" : "Pantheism",
+      "type" : "fillIn"
+    }, {
+      "body" : "_______ is a religion based on the teachings of Siddhartha Gautama, commonly known by his title of a similar name.",
+      "dictionary" : [ "Buddhism" ],
+      "response" : "Buddhism",
+      "type" : "fillIn"
+    }, {
+      "body" : "The word _______ literally means release and represents the liberation from the cycle of reincarnation; it is the Hindu version of heaven.",
+      "dictionary" : [ "Moksha" ],
+      "response" : "Moksha",
+      "type" : "fillIn"
+    }, {
+      "body" : "Match the theistic argument with its definition",
+      "options" : [ [ "A form of the teleological argument. It begins with the existence of dozens of physical constants whose values are such that even the slightest change would create a world that could not support life. Since these conditions are so exact and improbable, they could not be mere coincidence. Therefore, the this argument suggests a Designer.", "Fine Tuning" ], [ "Is an argument for the existence of a First Cause (or instead, an Uncaused cause) to the universe", "Cosmological Argument" ], [ "Is an 'argument from design.' This argument for the existence of God or a creator based on perceived evidence of order, purpose, design, or direction — or some combination of these — in nature", "Teleological Argument" ] ],
+      "type" : "drag"
+    }, {
+      "body" : "Argues for biblical conclusions based on evidence in an inductive way, similar to the scientific method. The type of scientific method used is a forensic, which is similar to courtroom evidence. Forensic science collects evidence after the event (e.g. an autopsy) and seeks to find the most plausible explanation for the event. Such an argument does not claim to “prove” Christianity, but only to render it more probable than other alternatives.",
+      "dictionary" : [ "Evidential Apologetics" ],
+      "response" : "Evidential Apologetics",
+      "type" : "fillIn"
+    }, {
+      "body" : "A doctrine that ultimate reality is entirely of one substance. Thus, the diversity of gods and religions throughout the world are manifestations of the ultimate reality. Pantheism and panentheism are _______. (Atheism is also ______, in that all is matter, but we are using the word for religious views where all is spirit).",
+      "dictionary" : [ "Monism" ],
+      "response" : "Monism",
+      "type" : "fillIn"
+    } ],
+    "q2" : [ {
+      "body" : "What passage teaches that God's election is based on God's foreknowledge (evidently of who chooses to believe in Christ)? ",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Phil 2:6,7"
+      }, {
+        "correct" : true,
+        "text" : "1 Peter 1b-2"
+      }, {
+        "correct" : false,
+        "text" : "Lev 16"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "The verse that proclaims, 'Christians will never be condemned by God.'",
+      "options" : [ {
+        "correct" : false,
+        "text" : "John 10:27-30"
+      }, {
+        "correct" : true,
+        "text" : "Rom 8:1"
+      }, {
+        "correct" : false,
+        "text" : "Phil 2:6,7"
+      }, {
+        "correct" : false,
+        "text" : "1 Cor 15"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse teaches that: Jesus has been resurrected, and his resurrection proves he is the Messiah and assures our salvation.",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Col 2:9"
+      }, {
+        "correct" : false,
+        "text" : "1 Peter 1b-2"
+      }, {
+        "correct" : false,
+        "text" : "Phil 2:6,7"
+      }, {
+        "correct" : true,
+        "text" : "1 Cor 15:1-23"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This is a verse that teaches that God exists in more than 1 person.",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Gen 1:26,27"
+      }, {
+        "correct" : false,
+        "text" : "Exodus 34:6-8"
+      }, {
+        "correct" : false,
+        "text" : "Phil 2:6,7"
+      }, {
+        "correct" : false,
+        "text" : "Lev 16"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "Which of these is the best reference and quote for Jesus' qualities in the Hypostatic Union?",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Phil 2:6,7 `For who, being completely God, did not consider equality with God something to be used to his own advantage; rather he made himself everything by taking the nature of God, spiritually like a person`"
+      }, {
+        "correct" : false,
+        "text" : "Col 2:9 `For in Christ the fullness of deity dwells in bodily form.`"
+      }, {
+        "correct" : false,
+        "text" : "Col 2:9 `For in Christ, deity seemed like a man.`"
+      }, {
+        "correct" : false,
+        "text" : "Phil 2:6,7 `For who, being in very nature God, did not consider equality with God something to be used to his own advantage; rather he made himself nothing by taking the very nature of a servant, being made in human likeness`"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "Which of these is the best reference and quote for how 'Jesus laid aside his divine privileges (including the use of certain divine attributes) at the Incarnation:",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Phil 2:6,7 'For who,being completely God, did not consider equality with God something to be used to his own advantage;rather he made himself everything by taking the nature of God, spiritually like a person "
+      }, {
+        "correct" : false,
+        "text" : "Col 2:9 'For in Christ the fullness of diety dwells in bodily form.'"
+      }, {
+        "correct" : false,
+        "text" : "Col 2:9 'For in Christ, deity appeared like a man."
+      }, {
+        "correct" : true,
+        "text" : "Phil 2:6,7 'For who, being in very nature God, did not consider equality with God something to be used to his own advange;rather he made himself nothing by taking the very nature of a servant, being made in human likeness "
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse teaches Federal Headship: the choice of the head affects all of his descendants.  Adam &amp; Jesus.",
+      "options" : [ {
+        "correct" : true,
+        "text" : "1 Cor 15:1-23"
+      }, {
+        "correct" : false,
+        "text" : "Rom 5:12-19"
+      }, {
+        "correct" : false,
+        "text" : "Rom 3:9-20"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "What memory verse best fits the statement: 'Total depravity describes the effects of the Fall.'",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Rom 3:23,24"
+      }, {
+        "correct" : true,
+        "text" : "Rom 3:9-20"
+      }, {
+        "correct" : false,
+        "text" : "Rom 5:12-19"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse teaches that the Day of Atonment is a clear example of subsitutionary atonement for that nation of Israel:",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Isaiah 53"
+      }, {
+        "correct" : false,
+        "text" : "Exodus 34:6-8"
+      }, {
+        "correct" : true,
+        "text" : "Lev 16"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This passage makes it clear that the Old Testament sacrifical system must be fulfilled by a person; the Servant of the Lord:",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Lev 16"
+      }, {
+        "correct" : false,
+        "text" : "1 Cor 15:1-23"
+      }, {
+        "correct" : true,
+        "text" : "Isa 53"
+      }, {
+        "correct" : false,
+        "text" : "Rom 3:23,24"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse teaches that, 'All humans fall justly under God's condemnation because of their sins, but all humans are acceptable to God if they receive JEsus' atoning death for their sins:'",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Phil 2:6,7"
+      }, {
+        "correct" : true,
+        "text" : "Rom 3:23,24"
+      }, {
+        "correct" : false,
+        "text" : "1 John 2:15,16"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This verse (NIV), 'For all have sinned and fallen short of the glory of God and all are justified freely by his grace through the redemption that came by Christ Jesus.' is:",
+      "options" : [ {
+        "correct" : true,
+        "text" : "Rom 3:23,24"
+      }, {
+        "correct" : false,
+        "text" : "Phil 2:6,7"
+      }, {
+        "correct" : false,
+        "text" : "1 Peter 1b,2"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse, 'And do not grieve the Holy Spirit of God, with whom you were sealed for the day of redemption.' is:",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Rom 8:1"
+      }, {
+        "correct" : false,
+        "text" : "John 10:27-30"
+      }, {
+        "correct" : false,
+        "text" : " 1 John 2:15,16"
+      }, {
+        "correct" : true,
+        "text" : "Eph 4:30"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse teaches that Christians are sealed for safe passage to Heaven:",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Rom 8:1"
+      }, {
+        "correct" : true,
+        "text" : "Eph 4:30"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse teaches that Jesus will not allow anyone to snatch believes from His hand:",
+      "options" : [ {
+        "correct" : false,
+        "text" : "Rom 8:1"
+      }, {
+        "correct" : true,
+        "text" : "John 10:27,30"
+      }, {
+        "correct" : false,
+        "text" : "Eph 4:30"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse teaches that Jesus Christ died for the sins of the whole world, not just believers.",
+      "options" : [ {
+        "correct" : true,
+        "text" : "1 John 2:2"
+      }, {
+        "correct" : false,
+        "text" : "1 Peter 1b-2"
+      }, {
+        "correct" : false,
+        "text" : "2 Peter 3:9"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse, 'To God’s elect, exiles scattered throughout the provinces of Pontus, Galatia, Cappadocia, Asia and Bithynia, who have been chosen according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, to be obedient to Jesus Christ and sprinkled with his blood: Grace and peace be yours in abundance.' is:",
+      "options" : [ {
+        "correct" : false,
+        "text" : "1 John 1:2"
+      }, {
+        "correct" : true,
+        "text" : "1 Peter 1b-2"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse teaches that God's will is for all people to be saved.",
+      "options" : [ {
+        "correct" : false,
+        "text" : "1 John 2:2"
+      }, {
+        "correct" : false,
+        "text" : "1 Peter 1b-2"
+      }, {
+        "correct" : true,
+        "text" : "2 Peter 3:9"
+      } ],
+      "type" : "multi"
+    }, {
+      "body" : "This memory verse, 'The Lord is not slow in keeping his promise, as some understand slowness.Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.' is:",
+      "options" : [ {
+        "correct" : false,
+        "text" : "1 John 2:2"
+      }, {
+        "correct" : false,
+        "text" : "2 Thess 1b-2"
+      }, {
+        "correct" : true,
+        "text" : "2 Peter 3:9"
+      } ],
+      "type" : "multi"
+    } ],
+    "q3" : [ {
+      "body" : "This is an example of the sorter",
+      "options" : [ "1", "2", "3", "4" ],
+      "response" : "1,2,3,4",
+      "type" : "sort"
+    } ]
   },
-  "scores": {
-    "C8C2KemQjfN7ULZRVLhw8tTqg3b2":
-    [{
-      "scored": 0,
-      "timestamp": 1459361875337,
-      "quizId": "q1"
-    }]
+  "quizzes" : [ {
+    "author" : "C8C2KemQjfN7ULZRVLhw8tTqg3b2",
+    "id" : "q1",
+    "title" : "LTC 5"
+  }, {
+    "author" : "C8C2KemQjfN7ULZRVLhw8tTqg3b2",
+    "id" : "q0",
+    "title" : "Dynamit Front End Quiz"
+  }, {
+    "author" : "C8C2KemQjfN7ULZRVLhw8tTqg3b2",
+    "id" : "q2",
+    "title" : "Christian Ministry 1 - Memory Verses"
+  }, {
+    "author" : "C8C2KemQjfN7ULZRVLhw8tTqg3b2",
+    "id" : "q3",
+    "title" : "Feature Tester"
+  } ],
+  "scores" : {
+    "C8C2KemQjfN7ULZRVLhw8tTqg3b2" : {
+      "0" : {
+        "quizId" : "q1",
+        "scored" : 0,
+        "timestamp" : 1459361875337
+      },
+      "-LJUUryMabTrzeFcX1B4" : {
+        "quizId" : "q3",
+        "scored" : 0,
+        "timestamp" : 1533835186215
+      },
+      "-LJUhUYpI4BPRcXqIYcp" : {
+        "quizId" : "q0",
+        "scored" : 100,
+        "timestamp" : 1533835344130
+      }
+    }
   }
 }

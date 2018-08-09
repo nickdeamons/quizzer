@@ -1,6 +1,9 @@
 
 .sortable {
+  margin-bottom: 1.5em;
   &__item {
-    border-bottom: 1px solid $blue
+    border-bottom: 1px solid $blue;
+    padding: 0.5em 0;
+    cursor: pointer;
   }
 }

@@ -17,12 +17,10 @@
 
 <script>
 
-import shuffle from '../../../utils/shuffle'
-
+import draggable from 'vuedraggable'
 import AnswerButton from '../../buttons/AnswerButton.vue'
 import response from './Response.vue'
-import draggable from 'vuedraggable'
-
+import shuffle from '../../../utils/shuffle'
 import store from '../../../store'
 
 export default {

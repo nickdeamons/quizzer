@@ -23,6 +23,9 @@
           <div v-if="question.type==='drag'">
             <drag-and-drop :question="question" :correctAnswer='correctAnswer' />
           </div>
+          <div v-if="question.type==='sort'">
+            <sortable :question="question" :correctAnswer='correctAnswer' />
+          </div>
           <div v-if="question.type==='trueFalse'">
             <true-false :question="question" :correctAnswer='correctAnswer' />
           </div>
@@ -49,7 +52,7 @@ import TrueFalse from './questions/TrueFalse.vue';
 import Timer from './Timer.vue'
 import JumpLinks from './JumpLinks.vue'
 import SingleAnswer from './questions/SingleAnswer.vue';
-
+import Sortable from './questions/Sortable.vue'
 
 export default {
   props: {
@@ -66,6 +69,7 @@ export default {
     'single-answer': SingleAnswer,
     'timer': Timer,
     'jump-links': JumpLinks,
+    'sortable': Sortable
   },
   data: function() {
     return {

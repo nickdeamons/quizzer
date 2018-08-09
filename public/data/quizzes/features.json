@@ -1,0 +1,11 @@
+[{
+  "type": "sort",
+  "body": "This is an example of the sorter",
+  "options":[
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "response": "1,2,3,4"
+}]
