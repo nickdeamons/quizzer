@@ -20,7 +20,7 @@
           <div v-if="question.type==='multi'">
             <multiple-choice :question="question" :correctAnswer='correctAnswer' />
           </div>
-          <div v-if="question.type==='sort'">
+          <div v-if="question.type==='drag'">
             <drag-and-drop :question="question" :correctAnswer='correctAnswer' />
           </div>
           <div v-if="question.type==='trueFalse'">

@@ -25,7 +25,7 @@
     "response": "1 Pet 3:15"
   },
   {
-    "type": "sort",
+    "type": "drag",
     "body": "Match the verses to their content.",
     "options": [
       [
@@ -290,7 +290,7 @@
   },
   {
     "type": "fillIn",
-    "body": "____________________ stresses rational arguments for the existence of God and uses evidence to substantiate biblical claims and miracles. Arguments such as the cosmological, teleological, and ontological arguments are types of classical apologetics.",
+    "body": "____________________ stresses rational arguments for the existence of God and uses evidence to substantiate biblical claims and miracles. Arguments such as the cosmological, teleological, and ontological arguments are types of this.",
     "dictionary": [
       "Classical Apologetics"
     ],
@@ -303,7 +303,7 @@
     "response": "Burden of Proof"
   },
   {
-    "type": "sort",
+    "type": "drag",
     "body": "Drag the term to its definition.",
     "options": [
       ["Punctuated Equilibrium",
@@ -373,7 +373,7 @@
     "response": "Moksha"
   },
   {
-    "type":"sort",
+    "type":"drag",
     "body":"Match the theistic argument with its definition",
     "options": [
       ["A form of the teleological argument. It begins with the existence of dozens of physical constants whose values are such that even the slightest change would create a world that could not support life. Since these conditions are so exact and improbable, they could not be mere coincidence. Therefore, the this argument suggests a Designer.",
