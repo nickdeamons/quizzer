@@ -40,11 +40,11 @@ export default {
         .then(
           (data) => {
             //eslint-disable-next-line
-            console.log('authenticated:', data.user.email)
+            // console.log('authenticated:', data.user.email)
             // alert(`You ${user} are created!`)
             store.dispatch('users/login', data.user)
             this.$router.replace('/select')
-          }, 
+          },
           (err) => {
             this.loginAttempt = false;
             alert(`Oops. ${err}`)

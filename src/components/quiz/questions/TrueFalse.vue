@@ -2,7 +2,7 @@
   <div>
     <div class="question__text"><strong>True</strong> or <strong> False</strong></div>
     <div class="question__text">
-      <div v-html="question.body" />
+      <div v-html="question.body" class="question__text" />
       <input type="radio" :value="true" v-model="selectedChoice" :disabled="correct" /> True<br />
       <input type="radio" :value="false" v-model="selectedChoice" :disabled="correct" /> False
     </div>

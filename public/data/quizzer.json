@@ -76,15 +76,14 @@
       "options" : [ [ "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.", "Level A" ], [ "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.", "Level AAA" ], [ "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.", "Level AA" ] ],
       "type" : "drag"
     }, {
-      "body" : "A _________ allows team members to review your code before it is merged to a branch.",
+      "body" : "A ___ _______ allows team members to review your code before it is merged to a branch.",
       "dictionary" : [ "Git pull request", "pull request" ],
       "response" : "Git pull request/pull request.",
       "type" : "fillIn"
-    },
-    {
+    }, {
       "body" : "Put the following in their order that the defined styles will appear, their ignoring the order in the sass, as shown in a console to the last <code>&lt;p /&gt;</code> in a  <code>&lt;div /&gt;</code>",
       "options" : [ "p:last-child", "p.apply", ".apply", "p" ],
-      "response" : "p, .apply, p.apply, p:last-child<br /><br /><img src='https://firebasestorage.googleapis.com/v0/b/intense-heat-3679.appspot.com/o/styles-applied.png?alt=media&token=6859e67d-0319-41bf-80b7-974abf6c9dc2' />",
+      "response" : "p:last-child, p.apply, .apply, p<br /><br /><img src='https://firebasestorage.googleapis.com/v0/b/intense-heat-3679.appspot.com/o/styles-applied.png?alt=media&token=6859e67d-0319-41bf-80b7-974abf6c9dc2' />",
       "type" : "sort"
     } ],
     "q1" : [ {
@@ -685,7 +684,7 @@
       "-LJUhUYpI4BPRcXqIYcp" : {
         "quizId" : "q0",
         "scored" : 100,
-        "timestamp" : 1533835344130
+        "timestamp" : 1533838722821
       }
     }
   }

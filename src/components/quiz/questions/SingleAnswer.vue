@@ -1,13 +1,11 @@
 <template>
   <div>
-    <div class="question__text" >
-      <div v-html="question.body" class="question__text"  />
+    <div v-html="question.body" class="question__text"  />
       <div v-for="(option, index) in shuffled" :key="`o_${index}`" class="question__choice">
         <input type="radio" :value="option.text" v-model="selectedChoice" :disabled="correct" />
         <span v-html="option.text" />
       </div>
-    </div>
-    <div v-if="!correct">
+=   <div v-if="!correct">
       <answer-button :submit="isCorrect" />
     </div>
     <response :answered="answered" :correct="correct" :question="question" />
