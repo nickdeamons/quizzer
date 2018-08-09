@@ -89,14 +89,13 @@ export default {
   mounted: function() {
     if(this.$route.params.id) {
       this.currentQuestion = parseInt(this.$route.params.id) - 1;
-    } 
+    }
     /* else {
       this.$router.push({
         path: `/quiz/question/${this.currentQuestion + 1}`
       }/
     } */
   }
-  
 };
 </script>
 <style>
