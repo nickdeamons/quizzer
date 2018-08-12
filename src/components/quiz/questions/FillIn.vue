@@ -18,6 +18,7 @@
 import AnswerButton from '../../buttons/AnswerButton.vue'
 import response from './Response.vue'
 import store from '../../../store'
+const stringSimilarity = require('string-similarity')
 
 export default {
   components: {
@@ -48,7 +49,11 @@ export default {
       // check all the accepted terms in the dictionary, 0 or > = found in the 'dictionary'
       is = (this.accepted.findIndex((value) => {
         // ignoring case, ignoring spaces and punctuation
-        return value.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '') == this.guess.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '')
+        // take 80% of correct characters in the string
+        const a = value.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '')
+        const b = this.guess.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '')
+
+        return stringSimilarity.compareTwoStrings(a, b) > 0.8
         }) >= 0);
       this.correct = is;
       if(this.correct) {

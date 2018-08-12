@@ -5,9 +5,10 @@
         <input type="radio" :value="option.text" v-model="selectedChoice" :disabled="correct" />
         <span v-html="option.text" />
       </div>
-=   <div v-if="!correct">
-      <answer-button :submit="isCorrect" />
-    </div>
+      <br />
+      <div v-if="!correct">
+        <answer-button :submit="isCorrect" />
+      </div>
     <response :answered="answered" :correct="correct" :question="question" />
   </div>
 </template>

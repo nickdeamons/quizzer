@@ -26,7 +26,7 @@ export default {
     Logout
   },
   computed: {
-    ...mapGetters('quiz', ['questions', 'percentage', 'isQuestionCorrect', 'isComplete']),
+    ...mapGetters('quiz', ['questions', 'percentage', 'isComplete']),
     ...mapGetters(['loaded']),
     loaded: function() {
       return store.state.loaded

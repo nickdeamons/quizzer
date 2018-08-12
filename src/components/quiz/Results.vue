@@ -44,7 +44,7 @@ export default {
       this.$router.push('quiz')
     }
   },
-  mounted: function() {    
+  mounted: function() {
     const scoreOjbect = {
       "quizId" : this.selectedQuizId,
       "timestamp": Date.now(),
