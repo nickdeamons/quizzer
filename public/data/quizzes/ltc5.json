@@ -1,397 +1,308 @@
- [{
-    "type": "fillIn",
-    "body": "Since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that men are without excuse.",
-    "dictionary": ["Romans 1:19-20", "Rom 1:19-20"],
-    "response": "Romans 1:19-20"
-  },
+  [{
+  "body" : "Since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that men are without excuse.",
+  "dictionary" : [ "Romans 1:19-20", "Rom 1:19-20" ],
+  "response" : "Romans 1:19-20",
+  "type" : "fillIn"
+}, {
+  "body" : "John 13:17",
+  "dictionary" : [ "Now that you know these things, you will be blessed if you do them." ],
+  "response" : "Now that you know these things, you will be blessed if you do them.",
+  "type" : "fillIn"
+}, {
+  "body" : "Select the verse best describing <i>apologetics</i>",
+  "options" : [ {
+    "correct" : false,
+    "text" : "1 Pet 1:15"
+  }, {
+    "correct" : true,
+    "text" : "1 Pet 3:15"
+  } ],
+  "response" : "1 Pet 3:15",
+  "type" : "single"
+}, {
+  "body" : "Match the verses to their content.",
+  "options" : [ [ "Romans 12:15", "Rejoice with those who rejoice, and weep with those who weep." ], [ "Romans 15:14", "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another." ], [ "Romans 12:2", "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what the will of God is, that which is good and acceptable and perfect." ] ],
+  "response" : "Romans 12:15, Romans 15:14, Romans 12:2",
+  "type" : "drag"
+}, {
+  "body" : "Hebrews 11:3",
+  "dictionary" : [ "By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible." ],
+  "response" : "By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible.",
+  "type" : "fillIn"
+}, {
+  "body" : "2 Cor 5:11a",
+  "dictionary" : [ "Since, then, we know what it is to fear the Lord, we try to persuade men." ],
+  "response" : "Since, then, we know what it is to fear the Lord, we try to persuade men.",
+  "type" : "fillIn"
+}, {
+  "body" : "It was Paul’s custom to go the Synagogue, reason from the Scriptures, and persuade men that Christ had to suffer and rise on the third day.",
+  "options" : [ {
+    "correct" : true,
+    "text" : "Acts 17:2-4"
+  }, {
+    "correct" : false,
+    "text" : "Acts 17:12-14"
+  }, {
+    "correct" : false,
+    "text" : "Acts 16:5-9"
+  } ],
+  "response" : "Acts 17:2-4",
+  "type" : "single"
+}, {
+  "body" : "Paul speaks in Athens at the Areopagus. This is an example of a contextualized apologetics approach.",
+  "options" : [ {
+    "correct" : false,
+    "text" : "Acts 17:2-4"
+  }, {
+    "correct" : true,
+    "text" : "Acts 17:22-31"
+  }, {
+    "correct" : false,
+    "text" : "Acts 16:5-9"
+  } ],
+  "response" : "Acts 17:22-31",
+  "type" : "single"
+}, {
+  "body" : "2 Corinthians 10:5",
+  "dictionary" : [ "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ." ],
+  "response" : "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ.",
+  "type" : "fillIn"
+}, {
+  "body" : "Paul gives an example of evidential apologetics by arguing that Jesus’ literal bodily resurrection was witnessed by many.",
+  "options" : [ {
+    "correct" : true,
+    "text" : "1 Cor 15:1-7"
+  }, {
+    "correct" : false,
+    "text" : "2 Cor 10:5"
+  }, {
+    "correct" : false,
+    "text" : "Romans 15:14"
+  } ],
+  "response" : "1 Cor 15:1-7",
+  "type" : "single"
+}, {
+  "body" : "This verse teaches that God will lead willing people.",
+  "dictionary" : [ "Ps 32:8-9", "Ps 32:8,9" ],
+  "response" : "Ps 32:8-9",
+  "type" : "fillIn"
+}, {
+  "body" : "Paul appeals to spiritual expediency",
+  "dictionary" : [ "1 Cor 16", "1 Corinthians 16" ],
+  "response" : "1 Cor 16",
+  "type" : "fillIn"
+}, {
+  "body" : "Speak words that edify&hellip; Be kind to one another, tender-hearted",
+  "dictionary" : [ "Eph 4:29,32", "Ephesians 4:29,32" ],
+  "response" : "Eph 4:29,32",
+  "type" : "fillIn"
+}, {
+  "body" : "<strong>Jeremiah 17:9</strong>",
+  "dictionary" : [ "The heart is deceitful above all things and beyond cure. Who can understand it?" ],
+  "response" : "The heart is deceitful above all things and beyond cure. Who can understand it?",
+  "type" : "fillIn"
+}, {
+  "body" : "The rapid appearance around 530 million years ago of most phyla on earth during a very short period of 5-10 million years.",
+  "options" : [ {
+    "correct" : true,
+    "text" : "Cambrian Explosion"
+  }, {
+    "correct" : false,
+    "text" : "Mature Creationism"
+  }, {
+    "correct" : false,
+    "text" : "Theistic Evolution"
+  }, {
+    "correct" : false,
+    "text" : "Progressive Creationism"
+  } ],
+  "response" : "Cambrian Explosion",
+  "type" : "single"
+}, {
+  "body" : "This view holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them.",
+  "options" : [ {
+    "correct" : false,
+    "text" : "Cambrian Explosion"
+  }, {
+    "correct" : false,
+    "text" : "Mature Creationism"
+  }, {
+    "correct" : false,
+    "text" : "Inorganic Evolution/Abiogenesis"
+  }, {
+    "correct" : true,
+    "text" : "Progressive Creationism"
+  } ],
+  "response" : "Progressive Creationism",
+  "type" : "single"
+}, {
+  "body" : "A theory that the entire world was created in six days just as it is today, less than ten thousand years ago.",
+  "options" : [ {
+    "correct" : false,
+    "text" : "Inorganic Evolution/Abiogenesis"
+  }, {
+    "correct" : true,
+    "text" : "Mature Creationism"
+  }, {
+    "correct" : false,
+    "text" : "Theistic Evolution"
+  }, {
+    "correct" : false,
+    "text" : "Progressive Creationism"
+  } ],
+  "response" : "Mature Creationism",
+  "type" : "single"
+}, {
+  "body" : "This form of spirituality is a loosely based movement that includes numerous groups, churches, and philosophies that share common foundational beliefs. It can be traced back to several unconventional religious ideologies including Theosophy (a pantheistic form of ancient Gnosticism) as well as the teaching of Phineas P. Quimby, a psychic healer who greatly influenced a number of mind-science cults (including Christian Science).",
+  "dictionary" : [ "New Age" ],
+  "response" : "New Age",
+  "type" : "fillIn"
+}, {
+  "body" : "Romans 15:14",
+  "dictionary" : [ "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another." ],
+  "response" : "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another.",
+  "type" : "fillIn"
+}, {
+  "body" : "Colossians 3:16",
+  "dictionary" : [ "Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God." ],
+  "response" : "Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God.",
+  "type" : "fillIn"
+}, {
+  "body" : "Mark 10:45",
+  "dictionary" : [ "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many." ],
+  "response" : "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many.",
+  "type" : "fillIn"
+}, {
+  "body" : "Loving God and loving one another are the most important commandments",
+  "options" : [ {
+    "correct" : true,
+    "text" : "Matthew 22:37-40"
+  }, {
+    "correct" : false,
+    "text" : "Mark 10:45"
+  }, {
+    "correct" : false,
+    "text" : "Matthew 5:46"
+  } ],
+  "response" : "Matthew 22:37-40",
+  "type" : "single"
+}, {
+  "body" : "John 15:13",
+  "dictionary" : [ "Greater love has no one than this, that he lay down his life for his friends." ],
+  "response" : "Greater love has no one than this, that he lay down his life for his friends.",
+  "type" : "fillIn"
+}, {
+  "body" : "1 Corinthians 13:5",
+  "dictionary" : [ "It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs." ],
+  "response" : "It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. ",
+  "type" : "fillIn"
+}, {
+  "body" : "Colossians 3:13",
+  "dictionary" : [ "Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you." ],
+  "response" : "Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you.",
+  "type" : "fillIn"
+}, {
+  "body" : "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
+  "options" : [ {
+    "correct" : true,
+    "text" : "Eph 4:32"
+  }, {
+    "correct" : false,
+    "text" : "Colossians 3:13"
+  } ],
+  "response" : "Eph 4:32",
+  "type" : "single"
+}, {
+  "body" : "Galatians 6:1",
+  "dictionary" : [ "Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted." ],
+  "response" : "Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted.",
+  "type" : "fillIn"
+}, {
+  "body" : "____________________ stresses rational arguments for the existence of God and uses evidence to substantiate biblical claims and miracles. Arguments such as the cosmological, teleological, and ontological arguments are types of this.",
+  "dictionary" : [ "Classical Apologetics" ],
+  "response" : "Classical Apologetics",
+  "type" : "fillIn"
+}, {
+  "body" : "______________________  refers to how much weight of proof a particular debater must bear. As Christian apologists, we argue that we have no more burden of proof than any other worldview.",
+  "dictionary" : [ "Burden of Proof" ],
+  "response" : "Burden of Proof",
+  "type" : "fillIn"
+}, {
+  "body" : "Drag the term to its definition.",
+  "options" : [ [ "Punctuated Equilibrium", "is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur." ], [ "Inorganic Evolution/Abiogenesis", "Refers to the change from non-living chemical compounds to the first living organism." ], [ "Progressive Creationism", "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them." ] ],
+  "response" : "",
+  "type" : "drag"
+}, {
+  "body" : "The word _____________ literally means to 'blow out' in the sense of snuffing a candle. In Buddhist teaching this is the state of being free from both suffering and they cycle of rebirth. Although the experience cannot be described, the basic concept of it is that self is extinguished.",
+  "dictionary" : [ "Nirvana" ],
+  "response" : "Nirvana",
+  "type" : "fillIn"
+}, {
+  "body" : "The belief that every species has arisen purely by evolution, but that evolution was guided by or enabled by God.",
+  "options" : [ {
+    "correct" : true,
+    "text" : "Theistic Evolution"
+  }, {
+    "correct" : false,
+    "text" : "Progressive Creationism"
+  }, {
+    "correct" : false,
+    "text" : "Mature Creationism"
+  } ],
+  "type" : "single"
+}, {
+  "body" : "__________ __________, who came to be called Buddha (“enlightened one”), was the founder the Buddhist religion. He was born in north-east India in 560 BC and died at the age of eighty.",
+  "dictionary" : [ "Siddhartha Gautama" ],
+  "response" : "Siddhartha Gautama",
+  "type" : "fillIn"
+}, {
+  "body" : "The ________ (‘Song of the Lord’) has sometimes been called the ‘the bible of Hinduism’ because of its popular appeal. It features Krisha.",
+  "dictionary" : [ "Bhagavad Gita" ],
+  "type" : "fillIn"
+}, {
+  "body" : "This word literally means ‘retribution.’ It indicates the consequences of one’s actions in one life, which are paid back in the next life.",
+  "dictionary" : [ "Karma" ],
+  "response" : "Karma",
+  "type" : "fillIn"
+}, {
+  "body" : "________ is the view that everything is part of an all-encompassing immanent God.",
+  "dictionary" : [ "Pantheism" ],
+  "response" : "Pantheism",
+  "type" : "fillIn"
+}, {
+  "body" : "_______ is a religion based on the teachings of Siddhartha Gautama, commonly known by his title of a similar name.",
+  "dictionary" : [ "Buddhism" ],
+  "response" : "Buddhism",
+  "type" : "fillIn"
+}, {
+  "body" : "The word _______ literally means release and represents the liberation from the cycle of reincarnation; it is the Hindu version of heaven.",
+  "dictionary" : [ "Moksha" ],
+  "response" : "Moksha",
+  "type" : "fillIn"
+},{
+  "body": "Order the soteriology Buddhist belief",
+  "options":["Karma", "Samsara", "Nirvana"],
+  "response": "<ol><li>Karma</li><li>Samsara</li><li>Nirvana</li></ol>",
+  "type": "sort"
+},
   {
-    "type": "fillIn",
-    "body": "John 13:17",
-    "dictionary": ["Now that you know these things, you will be blessed if you do them."],
-    "response": "Now that you know these things, you will be blessed if you do them."
-  },
-  {
-    "type": "single",
-    "body": "Select the verse best describing <i>apologetics</i>",
-    "options": [{
-        "text": "1 Pet 1:15",
-        "correct": false
-      },
-      {
-        "text": "1 Pet 3:15",
-        "correct": true
-      }
-    ],
-    "response": "1 Pet 3:15"
-  },
-  {
-    "type": "drag",
-    "body": "Match the verses to their content.",
-    "options": [
-      [
-        "Romans 12:15", "Rejoice with those who rejoice, and weep with those who weep."
-      ],
-      [
-        "Romans 15:14",
-        "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."
-      ],
-      [
-        "Romans 12:2",
-        "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what the will of God is, that which is good and acceptable and perfect."
-      ]
-    ],
-    "response": "Romans 12:15, Romans 15:14, Romans 12:2"
-  },
-  {
-    "type": "fillIn",
-    "body": "Hebrews 11:3",
-    "dictionary": ["By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible."],
-    "response": "By faith we understand that the universe was formed at God's command, so that what is seen was not made out of what was visible."
-  },
-  {
-    "type": "fillIn",
-    "body": "2 Cor 5:11a",
-    "dictionary": ["Since, then, we know what it is to fear the Lord, we try to persuade men."],
-    "response": "Since, then, we know what it is to fear the Lord, we try to persuade men."
-  },
-  {
-    "type": "single",
-    "body": "It was Paul’s custom to go the Synagogue, reason from the Scriptures, and persuade men that Christ had to suffer and rise on the third day.",
-    "options": [{
-        "text": "Acts 17:2-4",
-        "correct": true
-      },
-      {
-        "text": "Acts 17:12-14",
-        "correct": false
-      },
-      {
-        "text": "Acts 16:5-9",
-        "correct": false
-      }
-    ],
-    "response": "Acts 17:2-4"
-  },
-  {
-    "type": "single",
-    "body": "Paul speaks in Athens at the Areopagus. This is an example of a contextualized apologetics approach.",
-    "options": [{
-        "text": "Acts 17:2-4",
-        "correct": false
-      },
-      {
-        "text": "Acts 17:22-31",
-        "correct": true
-      },
-      {
-        "text": "Acts 16:5-9",
-        "correct": false
-      }
-    ],
-    "response": "Acts 17:22-31"
-  },
-  {
-    "type": "fillIn",
-    "body": "2 Corinthians 10:5",
-    "dictionary": ["We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ."],
-    "response": "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ."
-  },
-  {
-    "type": "single",
-    "body": "Paul gives an example of evidential apologetics by arguing that Jesus’ literal bodily resurrection was witnessed by many.",
-    "options": [{
-        "text": "1 Cor 15:1-7",
-        "correct": true
-      },
-      {
-        "text": "2 Cor 10:5",
-        "correct": false
-      },
-      {
-        "text": "Romans 15:14",
-        "correct": false
-      }
-    ],
-    "response": "1 Cor 15:1-7"
-  },
-  {
-    "type": "fillIn",
-    "body": "This verse teaches that God will lead willing people.",
-    "dictionary": ["Ps 32:8-9", "Ps 32:8,9"],
-    "response": "Ps 32:8-9"
-  },
-  {
-    "type": "fillIn",
-    "body": "Paul appeals to spiritual expediency",
-    "dictionary": ["1 Cor 16", "1 Corinthians 16"],
-    "response": "1 Cor 16"
-  },
-  {
-    "type": "fillIn",
-    "body": "Speak words that edify&hellip; Be kind to one another, tender-hearted",
-    "dictionary": ["Eph 4:29,32", "Ephesians 4:29,32"],
-    "response": "Eph 4:29,32"
-  },
-  {
-    "type": "fillIn",
-    "body": "<strong>Jeremiah 17:9</strong>",
-    "dictionary": ["The heart is deceitful above all things and beyond cure. Who can understand it?"],
-    "response": "The heart is deceitful above all things and beyond cure. Who can understand it?"
-  },
-  {
-    "type": "single",
-    "body": "The rapid appearance around 530 million years ago of most phyla on earth during a very short period of 5-10 million years.",
-    "options": [{
-        "text": "Cambrian Explosion",
-        "correct": true
-      },
-      {
-        "text": "Mature Creationism",
-        "correct": false
-      },
-      {
-        "text": "Theistic Evolution",
-        "correct": false
-      },
-      {
-        "text": "Progressive Creationism",
-        "correct": false
-      }
-    ],
-    "response": "Cambrian Explosion"
-  },
-  {
-    "type": "single",
-    "body": "This view holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them.",
-    "options": [{
-        "text": "Cambrian Explosion",
-        "correct": false
-      },
-      {
-        "text": "Mature Creationism",
-        "correct": false
-      },
-      {
-        "text": "Inorganic Evolution/Abiogenesis",
-        "correct": false
-      },
-      {
-        "text": "Progressive Creationism",
-        "correct": true
-      }
-    ],
-    "response": "Progressive Creationism"
-  },
-  {
-    "type": "single",
-    "body": "A theory that the entire world was created in six days just as it is today, less than ten thousand years ago.",
-    "options": [{
-        "text": "Inorganic Evolution/Abiogenesis",
-        "correct": false
-      },
-      {
-        "text": "Mature Creationism",
-        "correct": true
-      },
-      {
-        "text": "Theistic Evolution",
-        "correct": false
-      },
-      {
-        "text": "Progressive Creationism",
-        "correct": false
-      }
-    ],
-    "response": "Mature Creationism"
-  },
-  {
-    "type": "fillIn",
-    "body": "This form of spirituality is a loosely based movement that includes numerous groups, churches, and philosophies that share common foundational beliefs. It can be traced back to several unconventional religious ideologies including Theosophy (a pantheistic form of ancient Gnosticism) as well as the teaching of Phineas P. Quimby, a psychic healer who greatly influenced a number of mind-science cults (including Christian Science).",
-    "dictionary": ["New Age"],
-    "response": "New Age"
-  },
-  {
-    "type": "fillIn",
-    "body": "Romans 15:14",
-    "dictionary": ["I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."],
-    "response": "I myself am convinced, my brothers, that you yourselves are full of goodness, complete in knowledge and competent to instruct one another."
-  },
-  {
-    "type": "fillIn",
-    "body": "Colossians 3:16",
-    "dictionary": [
-      "Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God."
-    ],
-    "response": "Let the word of Christ dwell in you richly as you teach and admonish one another with all wisdom, and as you sing psalms, hymns and spiritual songs with gratitude in your hearts to God."
-  },
-  {
-    "type": "fillIn",
-    "body": "Mark 10:45",
-    "dictionary": [
-      "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."
-    ],
-    "response": "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."
-  },
-  {
-    "type": "single",
-    "body": "Loving God and loving one another are the most important commandments",
-    "options": [{
-        "text": "Matthew 22:37-40",
-        "correct": true
-      },
-      {
-        "text": "Mark 10:45",
-        "correct": false
-      },
-      {
-        "text": "Matthew 5:46",
-        "correct": false
-      }
-    ],
-    "response": "Matthew 22:37-40"
-  },
-  {
-    "type": "fillIn",
-    "body": "John 15:13",
-    "dictionary": ["Greater love has no one than this, that he lay down his life for his friends."],
-    "response": "Greater love has no one than this, that he lay down his life for his friends."
-  },
-  {
-    "type": "fillIn",
-    "body": "1 Corinthians 13:5",
-    "dictionary": ["It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs."],
-    "response": "It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. "
-  },
-  {
-    "type": "fillIn",
-    "body": "Colossians 3:13",
-    "dictionary": ["Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you."],
-    "response": "Bear with each other and forgive whatever grievances you may have against one another. Forgive as the Lord forgave you."
-  },
-  {
-    "type": "single",
-    "body": "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
-    "options": [{
-        "text": "Eph 4:32",
-        "correct": true
-      },
-      {
-        "text": "Colossians 3:13",
-        "correct": false
-      }
-    ],
-    "response": "Eph 4:32"
-  },
-  {
-    "type": "fillIn",
-    "body": "Galatians 6:1",
-    "dictionary": ["Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted."],
-    "response": "Brothers, if someone is caught in a sin, you who are spiritual should restore him gently. But watch yourself, or you also may be tempted."
-  },
-  {
-    "type": "fillIn",
-    "body": "____________________ stresses rational arguments for the existence of God and uses evidence to substantiate biblical claims and miracles. Arguments such as the cosmological, teleological, and ontological arguments are types of this.",
-    "dictionary": [
-      "Classical Apologetics"
-    ],
-    "response": "Classical Apologetics"
-  },
-  {
-    "type": "fillIn",
-    "body": "______________________  refers to how much weight of proof a particular debater must bear. As Christian apologists, we argue that we have no more burden of proof than any other worldview.",
-    "dictionary": ["Burden of Proof"],
-    "response": "Burden of Proof"
-  },
-  {
-    "type": "drag",
-    "body": "Drag the term to its definition.",
-    "options": [
-      ["Punctuated Equilibrium",
-        "is a theory of evolution holding that evolutionary change in the fossil record came in fits and starts rather than in a steady process of slow change. The significance of this theory is that the gaps in the fossil record are explained by these leaps forward in evolution, although no explanation is given for why leaps occur."
-      ],
-      [
-        "Inorganic Evolution/Abiogenesis", "Refers to the change from non-living chemical compounds to the first living organism."
-      ],
-      ["Progressive Creationism",
-        "Holds that God created in a series of interventions, possibly corresponding to the days in Gen. 1, but perhaps not limited to them."
-      ]
-    ],
-    "response": ""
-  },
-  {
-    "type":"fillIn",
-    "body":"The word _____________ literally means to 'blow out' in the sense of snuffing a candle. In Buddhist teaching this is the state of being free from both suffering and they cycle of rebirth. Although the experience cannot be described, the basic concept of it is that self is extinguished.",
-    "dictionary":["Nirvana"],
-    "response":"Nirvana"
-  },
-  {
-    "type":"single",
-    "body":"The belief that every species has arisen purely by evolution, but that evolution was guided by or enabled by God.",
-    "options":[
-      {"text":"Theistic Evolution", "correct": true},
-      {"text":"Progressive Creationism", "correct": false},
-      {"text": "Mature Creationism", "correct": false}
-    ]
-  },
-  {
-    "type":"fillIn",
-    "body":"__________ __________, who came to be called Buddha (“enlightened one”), was the founder the Buddhist religion. He was born in north-east India in 560 BC and died at the age of eighty.",
-    "dictionary":[
-      "Siddhartha Gautama"
-    ],
-    "response":"Siddhartha Gautama"
-  },
-  {
-    "type":"fillIn",
-    "body":"The ________ (‘Song of the Lord’) has sometimes been called the ‘the bible of Hinduism’ because of its popular appeal. It features Krisha.",
-    "dictionary": [
-      "Bhagavad Gita"
-    ]
-  },
-  {
-    "type":"fillIn",
-    "body":"This word literally means ‘retribution.’ It indicates the consequences of one’s actions in one life, which are paid back in the next life.",
-    "dictionary":["Karma"],
-    "response": "Karma"
-  },
-  {
-    "type": "fillIn",
-    "body": "________ is the view that everything is part of an all-encompassing immanent God.",
-    "dictionary":["Pantheism"],
-    "response": "Pantheism"
-  },
-  {
-    "type": "fillIn",
-    "body": "_______ is a religion based on the teachings of Siddhartha Gautama, commonly known by his title of a similar name.",
-    "dictionary": ["Buddhism"],
-    "response":"Buddhism"
-  },
-  {
-    "type": "fillIn",
-    "body": "The word _______ literally means release and represents the liberation from the cycle of reincarnation; it is the Hindu version of heaven.",
-    "dictionary": ["Moksha"],
-    "response": "Moksha"
-  },
-  {
-    "type":"drag",
-    "body":"Match the theistic argument with its definition",
-    "options": [
-      ["A form of the teleological argument. It begins with the existence of dozens of physical constants whose values are such that even the slightest change would create a world that could not support life. Since these conditions are so exact and improbable, they could not be mere coincidence. Therefore, the this argument suggests a Designer.",
-      "Fine Tuning"],
-      ["Is an argument for the existence of a First Cause (or instead, an Uncaused cause) to the universe", "Cosmological Argument"],
-      ["Is an 'argument from design.' This argument for the existence of God or a creator based on perceived evidence of order, purpose, design, or direction — or some combination of these — in nature", "Teleological Argument"]
-    ]
-  },
-  {
-    "type": "fillIn",
-    "body": "Argues for biblical conclusions based on evidence in an inductive way, similar to the scientific method. The type of scientific method used is a forensic, which is similar to courtroom evidence. Forensic science collects evidence after the event (e.g. an autopsy) and seeks to find the most plausible explanation for the event. Such an argument does not claim to “prove” Christianity, but only to render it more probable than other alternatives.",
-    "dictionary":["Evidential Apologetics"],
-    "response":"Evidential Apologetics"
-  },
-  {
-    "type":"fillIn",
-    "body":"A doctrine that ultimate reality is entirely of one substance. Thus, the diversity of gods and religions throughout the world are manifestations of the ultimate reality. Pantheism and panentheism are _______. (Atheism is also ______, in that all is matter, but we are using the word for religious views where all is spirit).",
-    "dictionary":["Monism"],
-    "response": "Monism"
-  }
+  "body" : "Match the theistic argument with its definition",
+  "options" : [ [ "A form of the teleological argument. It begins with the existence of dozens of physical constants whose values are such that even the slightest change would create a world that could not support life. Since these conditions are so exact and improbable, they could not be mere coincidence. Therefore, the this argument suggests a Designer.", "Fine Tuning" ], [ "Is an argument for the existence of a First Cause (or instead, an Uncaused cause) to the universe", "Cosmological Argument" ], [ "Is an 'argument from design.' This argument for the existence of God or a creator based on perceived evidence of order, purpose, design, or direction — or some combination of these — in nature", "Teleological Argument" ] ],
+  "type" : "drag"
+}, {
+  "body" : "Argues for biblical conclusions based on evidence in an inductive way, similar to the scientific method. The type of scientific method used is a forensic, which is similar to courtroom evidence. Forensic science collects evidence after the event (e.g. an autopsy) and seeks to find the most plausible explanation for the event. Such an argument does not claim to “prove” Christianity, but only to render it more probable than other alternatives.",
+  "dictionary" : [ "Evidential Apologetics" ],
+  "response" : "Evidential Apologetics",
+  "type" : "fillIn"
+}, {
+  "body" : "A doctrine that ultimate reality is entirely of one substance. Thus, the diversity of gods and religions throughout the world are manifestations of the ultimate reality. Pantheism and panentheism are _______. (Atheism is also ______, in that all is matter, but we are using the word for religious views where all is spirit).",
+  "dictionary" : [ "Monism" ],
+  "response" : "Monism",
+  "type" : "fillIn"
+}, {
+  "body": "1 Pet 3:15 states:",
+  "type": "fillIn",
+  "dictionary": ["But in your hearts set apart Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have. But do this with gentleness and respect"],
+  "response":"But in your hearts set apart Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have. But do this with gentleness and respect"
+}
 ]

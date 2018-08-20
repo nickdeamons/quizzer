@@ -53,7 +53,7 @@ export default {
         const a = value.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '')
         const b = this.guess.toLowerCase().replace(/[.,/?#!$%^&*;:{}=\-_`~()]/g,"").replace(/\s+/g, '')
 
-        return stringSimilarity.compareTwoStrings(a, b) > 0.8
+        return stringSimilarity.compareTwoStrings(a, b) > 0.85
         }) >= 0);
       this.correct = is;
       if(this.correct) {

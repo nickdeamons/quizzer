@@ -1,6 +1,7 @@
 {
   "quizQuestions" : {
-    "q0" : [ {
+    "q0" : [
+      {
       "body" : "______ should be lower case and dash-delimited.",
       "dictionary" : [ "CSS Selectors", "css classes", "classes" ],
       "response" : "The answer is CSS Selectors aka classes.",
@@ -86,7 +87,8 @@
       "response" : "p:last-child, p.apply, .apply, p<br /><br /><img src='https://firebasestorage.googleapis.com/v0/b/intense-heat-3679.appspot.com/o/styles-applied.png?alt=media&token=6859e67d-0319-41bf-80b7-974abf6c9dc2' />",
       "type" : "sort"
     } ],
-    "q1" : [ {
+    "q1" : [
+      {
       "body" : "Since what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that men are without excuse.",
       "dictionary" : [ "Romans 1:19-20", "Rom 1:19-20" ],
       "response" : "Romans 1:19-20",
@@ -367,7 +369,13 @@
       "dictionary" : [ "Moksha" ],
       "response" : "Moksha",
       "type" : "fillIn"
-    }, {
+    },{
+      "body": "Order the soteriology Buddhist belief",
+      "options":["Karma", "Samsara", "Nirvana"],
+      "response": "<ol><li>Karma</li><li>Samsara</li><li>Nirvana</li></ol>",
+      "type": "sort"
+    },
+      {
       "body" : "Match the theistic argument with its definition",
       "options" : [ [ "A form of the teleological argument. It begins with the existence of dozens of physical constants whose values are such that even the slightest change would create a world that could not support life. Since these conditions are so exact and improbable, they could not be mere coincidence. Therefore, the this argument suggests a Designer.", "Fine Tuning" ], [ "Is an argument for the existence of a First Cause (or instead, an Uncaused cause) to the universe", "Cosmological Argument" ], [ "Is an 'argument from design.' This argument for the existence of God or a creator based on perceived evidence of order, purpose, design, or direction — or some combination of these — in nature", "Teleological Argument" ] ],
       "type" : "drag"
@@ -382,7 +390,8 @@
       "response" : "Monism",
       "type" : "fillIn"
     } ],
-    "q2" : [ {
+    "q2" : [
+      {
       "body" : "What passage teaches that God's election is based on God's foreknowledge (evidently of who chooses to believe in Christ)? ",
       "options" : [ {
         "correct" : false,
@@ -645,7 +654,8 @@
       } ],
       "type" : "multi"
     } ],
-    "q3" : [ {
+    "q3" : [
+      {
       "body" : "This is an example of the sorter",
       "options" : [ "1", "2", "3", "4" ],
       "response" : "1,2,3,4",
