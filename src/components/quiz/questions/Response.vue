@@ -5,7 +5,7 @@
         Correct! <span v-html="question.response" />
       </div>
       <div v-else class="incorrect">
-        Incorrect: <span v-html="question.response" />
+        Incorrect! <span v-html="question.response" />
       </div>
     </div>
   </div>

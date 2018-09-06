@@ -32,6 +32,12 @@
           <div v-if="question.type==='single'">
             <single-answer :question="question" :correctAnswer='correctAnswer' />
           </div>
+          <div v-if="question.type==='some'">
+            <select-some :question="question" :correctAnswer='correctAnswer' />
+          </div>
+          <div v-if="question.type==='fillInSome'">
+            <fill-in-some :question="question" :correctAnswer='correctAnswer' />
+          </div>
         </div>
       </transition-group>
      </div>
@@ -49,10 +55,12 @@ import FillIn from './questions/FillIn.vue';
 import MultipleChoice from './questions/MultipleChoice.vue';
 import DragAndDrop from './questions/DragAndDrop.vue';
 import TrueFalse from './questions/TrueFalse.vue';
-import Timer from './Timer.vue'
-import JumpLinks from './JumpLinks.vue'
+import Timer from './Timer.vue';
+import JumpLinks from './JumpLinks.vue';
 import SingleAnswer from './questions/SingleAnswer.vue';
-import Sortable from './questions/Sortable.vue'
+import Sortable from './questions/Sortable.vue';
+import SelectSome from './questions/SelectSome.vue';
+import FillInSome from './questions/FillInSome.vue';
 
 export default {
   props: {
@@ -69,7 +77,9 @@ export default {
     'single-answer': SingleAnswer,
     'timer': Timer,
     'jump-links': JumpLinks,
-    'sortable': Sortable
+    'sortable': Sortable,
+    'select-some': SelectSome,
+    'fill-in-some':FillInSome
   },
   data: function() {
     return {

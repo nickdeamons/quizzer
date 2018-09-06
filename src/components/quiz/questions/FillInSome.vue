@@ -2,32 +2,41 @@
   <div>
     <div v-html="question.body" class="question__text" />
     <div class="question__text">
-      <div v-if="question.dictionary[0].length > 75">
-        <textarea rows="4" v-model="guess" :disabled="correct" />
+      <div v-for="i of question.min" :key="`guess${i}`">
+        <input  type="text" v-model="guesses[i]" :disabled="correct" /><br />
       </div>
-      <input v-else type="text" v-model="guess" :disabled="correct" />
     </div>
-    
     <div v-if="!correct">
       <answer-button :submit="isCorrect" />
     </div>
-    <hint :hint="question.hint" v-if="question.hint" />
-    <response :answered="answered" :correct="correct" :question="question" />
+    <!-- < response :answered="answered" :correct="correct" :question="question" -->
+    <div v-if="answered">
+      <div v-if="correct" class="correct">
+        Correct!
+      </div>
+      <div v-else class="incorrect">
+        Incorrect!
+      </div>
+      <div >
+        <span v-for="(option, index) in accepted" :key="`o_${index}`" >
+          <span :class="{'correct': correct, 'incorrect': !correct}" v-if="guessed.indexOf(option.replace(/\s+/g, ''))>=0">{{option}}</span>
+          <span v-else :class="{'correct': correct, 'incorrect': !correct}" class="faded" ><small>{{option}}</small></span>
+          <br />
+        </span>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import AnswerButton from '../../buttons/AnswerButton.vue'
-import hint from './Hint.vue';
 import response from './Response.vue'
 import store from '../../../store'
-const stringSimilarity = require('string-similarity')
 
 export default {
   components: {
     'answer-button': AnswerButton,
-    response,
-    hint
+    response
   },
   props: {
     question: Object,
@@ -35,22 +44,33 @@ export default {
   },
   data: function() {
     return {
-      guess: '',
+      guesses: [],
       correct: false,
       answered: false,
+      numCorrect: 0
     }
   },
   computed: {
     accepted: function() {
       return this.question.dictionary
+    },
+    threshold: function() {
+      return this.question.min
+    },
+    guessed: function() {
+      return this.guesses.map((value) => {return value.toLowerCase().replace(/\s+/g, '');});
     }
   },
   methods: {
     isCorrect: function() {
       let is = false;
       this.answered = true;
+      
       store.dispatch('quiz/answer', this.question.questionId)
+      const intersection = this.accepted.filter(element => this.guessed.includes(element.toLowerCase().replace(/\s+/g, '')));
+
       // check all the accepted terms in the dictionary, 0 or > = found in the 'dictionary'
+      /*
       is = (this.accepted.findIndex((value) => {
         // ignoring case, ignoring spaces and punctuation
         // take 80% of correct characters in the string
@@ -59,6 +79,9 @@ export default {
 
         return stringSimilarity.compareTwoStrings(a, b) > 0.85
         }) >= 0);
+      this.correct = is;
+      */
+      is = (intersection.length >= this.threshold);
       this.correct = is;
       if(this.correct) {
         store.dispatch('quiz/correctAnswer', this.question.questionId)

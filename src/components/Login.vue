@@ -5,6 +5,7 @@
     <input type="password" placeholder="Password" v-model="password" /><br />
     <button class="login" @click="login">Login</button>
     <p>No account? <router-link to="signup">You can create one.</router-link></p>
+    <p><small>*Your email address will NOT be used in any communications, analytics, etc. It is only in order to access the material of this quiz application.</small></p>
     <Loader v-if="loginAttempt" />
   </div>
 </template>

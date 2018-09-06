@@ -6,16 +6,15 @@
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
 }
-#app {
-  div,
-  p {
-    font-size: 1em;
-    
-    @include breakpoint($tablet) {
-      font-size: 18px;
-    }
+
+div, p {
+  font-size: 1em;
+
+  @include breakpoint($tablet) {
+    font-size: 18px;
   }
 }
+
 
 
 // @import 'styles/utils/icons';
@@ -36,6 +35,7 @@
 @import 'styles/components/question';
 @import 'styles/components/sortable';
 @import 'styles/components/timer';
+@import 'styles/components/hint';
 /* Modules */
 
 @import 'styles/modules/questions';

@@ -1,10 +1,10 @@
 <template>
   <div>
     <div v-html="question.body" class="question__text" />
-    <draggable class="sortable " v-model="list" :options="{disabled: correct}" @start="drag=true" @end="drag=false">
-        <div class="sortable__item question__choice" v-for="(option, index) in list" :key="`o_${index}`">
+    <draggable class="sortable " element="ol" v-model="list" :options="{disabled: correct}" @start="drag=true" @end="drag=false">
+        <li class="sortable__item question__choice" v-for="(option, index) in list" :key="`o_${index}`">
           <span v-html="option" />
-        </div>
+        </li>
     </draggable>
     <div v-if="!correct">
       <answer-button :submit="isCorrect" />

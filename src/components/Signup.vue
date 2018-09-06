@@ -5,6 +5,7 @@
       <input type="text" placeholder="Email" v-model="email" /><br />
       <input type="password" placeholder="Password" v-model="password" /><br />
       <button class="login" @click="signUp">Sign Up</button><router-link class="button back" to="/login">Back</router-link>
+       <p><small>*Your email address will NOT be used in any communications, analytics, etc. It is only in order to access the material of this quiz application.</small></p>
     </div>
     <div v-else>
       <div >You account for, {{email}} is ready to go!</div>

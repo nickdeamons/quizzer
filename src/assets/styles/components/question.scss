@@ -22,4 +22,10 @@
     color: $dark-red;
     font-weight: bold;
   }
+  .faded.correct {
+    color:rgba($dark-green, 0.5);
+  }
+  .faded.incorrect {
+    color: rgba($dark-red, 0.5);
+  }
 }

@@ -1,0 +1,13 @@
+.hint {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    div {
+      font-size: 14px;
+    }
+    a {
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+  }

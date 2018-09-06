@@ -3,16 +3,16 @@
     <h2>Your Results!</h2>
     <div class="question__text">You scored, {{percentage}}%.</div>
     <div v-if="percentage < 33" class="question__text">
-      That was crap!<br /> <button @click="reset" class="button prev">Take the quiz again</button>
+      Oh no!<br /> <button @click="reset" class="button prev">Take the quiz again</button>
     </div>
     <div v-if="33 <= percentage && percentage < 70" class="question__text">
       You did didn't pass the class. Please review the ones you got wrong...
     </div>
     <div v-if="percentage >= 70 && percentage < 80" class="question__text">
-      You passed the class, but you can do better!
+      You passed the class!
     </div>
     <div v-if="percentage >= 80" class="question__text">
-      Solid work.
+      Solid work. Take it again to stay sharp!
     </div>
     <div v-for="question in questions" :key="`q_${question.questionId}`" class="results__item question">
       <div v-html="question.body" class="question__text" />
