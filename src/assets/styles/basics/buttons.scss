@@ -16,11 +16,13 @@ button, .button {
     // color: palegoldenrod;
     display: block;
     width: 100%;
-    font-size: 1.25rem;
-    line-height: 2em;
     padding: 0.25em 0.5em;
     background-color: rgba(rgb(60, 134, 73), 0.85);
     margin-bottom: 1em;
+    @include breakpoint($tablet) {
+      font-size: 1.25rem;
+      line-height: 2em;
+    }
   }
 
   &.prev, &.back {
