@@ -4,15 +4,22 @@
   flex-wrap: wrap;
   margin: 0px auto 20px;
   width: 100%;
+  border: 3px solid #eee;
   &__column {
     display: flex;
     margin: 0;
     cursor: pointer;
-    border: 1px solid #222;
+    border-bottom: 1px solid #ddd;
     padding: 0 10px;
     width: 50%;
     overflow-y: scroll;
     height: 100px;
+    &:first-child, &:nth-child(2) {
+      border-top: 0;
+    }
+    &:last-child, &:nth-last-child(2) {
+      border-bottom: 0;
+    }
   }
 }
 
